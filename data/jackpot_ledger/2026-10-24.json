@@ -722,6 +722,50 @@
     "14": "draw-rule",
     "17": "draw-rule"
    }
+  },
+  {
+   "name": "M13-A",
+   "style": "13of13-favourites",
+   "picks": "A A H A A H - H H H A A - A H - -",
+   "played": false,
+   "note": "Draft Wed 21 Oct, Mega 13/13 category. Drops games [7, 13, 16, 17]; the four slips' drop sets are disjoint (16 different games dropped). P(any of the four 13/13) about 1 in 50,000; built from the 15/15 drafts.",
+   "reasons": {}
+  },
+  {
+   "name": "M13-B",
+   "style": "13of13-counter",
+   "picks": "A - H A - H H H H H A - H - H A H",
+   "played": false,
+   "note": "Draft Wed 21 Oct, Mega 13/13 category. Drops games [2, 5, 12, 14]; the four slips' drop sets are disjoint (16 different games dropped). P(any of the four 13/13) about 1 in 50,000; built from the 15/15 drafts.",
+   "reasons": {
+    "13": "optimiser"
+   }
+  },
+  {
+   "name": "M13-C",
+   "style": "13of13-draw-rule",
+   "picks": "A D H - A - H H H H - D A D - A D",
+   "played": false,
+   "note": "Draft Wed 21 Oct, Mega 13/13 category. Drops games [4, 6, 11, 15]; the four slips' drop sets are disjoint (16 different games dropped). P(any of the four 13/13) about 1 in 50,000; built from the 15/15 drafts.",
+   "reasons": {
+    "2": "draw-rule",
+    "12": "draw-rule",
+    "14": "draw-rule",
+    "17": "draw-rule"
+   }
+  },
+  {
+   "name": "M13-D",
+   "style": "13of13-draw-rule-counter",
+   "picks": "- A - A A H H H - - D A D D H A D",
+   "played": false,
+   "note": "Draft Wed 21 Oct, Mega 13/13 category. Drops games [1, 3, 9, 10]; the four slips' drop sets are disjoint (16 different games dropped). P(any of the four 13/13) about 1 in 50,000; built from the 15/15 drafts.",
+   "reasons": {
+    "11": "draw-rule",
+    "13": "draw-rule",
+    "14": "draw-rule",
+    "17": "draw-rule"
+   }
   }
  ]
 }
