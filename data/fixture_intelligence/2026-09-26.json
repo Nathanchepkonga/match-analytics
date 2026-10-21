@@ -1,0 +1,872 @@
+[
+  {
+    "match_id": "2026-09-26_tranmere_walsall",
+    "kickoff_date": "2026-09-26",
+    "kickoff_time": "17:00",
+    "country": "England",
+    "competition": "EFL League Two",
+    "home_team": "Tranmere Rovers",
+    "away_team": "Walsall",
+    "home_form": {
+      "results": [],
+      "goals_for": 9,
+      "goals_against": 7,
+      "league_position": 10,
+      "points": 10,
+      "note": "2W-4D-1L in 7; best defensive record talking point; unbeaten at home specifically."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": 10,
+      "goals_against": 4,
+      "league_position": 2,
+      "points": 13,
+      "note": "3W-4D-0L, unbeaten start under new manager Lee Grant."
+    },
+    "h2h_summary": "Walsall lead the recent series narrowly (figures conflict across sources: 13-11-8 vs 10-7-5 over different windows); last 5 meetings Walsall 2W-1D-2L; most recent meeting Tranmere won 1-0 (Aug 2024).",
+    "key_notes": [
+      "Walsall missing Antony Evans and Alex Pattison (hamstring, long-term), Roman Dixon re-injured; top scorer Aaron Pressley expected available.",
+      "Tranmere reportedly carrying some injuries (single low-confidence source, not corroborated).",
+      "Disruption factor: Tranmere are unbeaten specifically at home, a real tension against Walsall's unbeaten overall record."
+    ],
+    "sources": [
+      "Wikipedia (2026-27 EFL League Two)",
+      "FotMob",
+      "squawka.com",
+      "expressandstar.com",
+      "bescotbanter.net",
+      "11v11.com"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Walsall are 2nd and unbeaten with the better goal difference, but Tranmere's specific home fortress record is a real disruption risk against a Walsall side missing two regulars.",
+      "prediction_lean": "Walsall favoured, but a home draw is live",
+      "outcome_estimate": [
+        0.33,
+        0.32,
+        0.35
+      ],
+      "outcome_pick": "Away",
+      "confidence_note": "Slip escalation: Slip 1 (light disruption) backs Walsall; Slips 2-3 (moderate/heavy disruption) switch this to Draw given Tranmere's home-specific form."
+    },
+    "external_predictions": {},
+    "actual_result": "Draw",
+    "actual_score": "1-1"
+  },
+  {
+    "match_id": "2026-09-26_shrewsbury_colchester",
+    "kickoff_date": "2026-09-26",
+    "kickoff_time": "17:00",
+    "country": "England",
+    "competition": "EFL League Two",
+    "home_team": "Shrewsbury Town",
+    "away_team": "Colchester United",
+    "home_form": {
+      "results": [],
+      "goals_for": 5,
+      "goals_against": 11,
+      "league_position": 18,
+      "points": 7,
+      "note": "2W-1D-4L in 7; won only 1 of last 5 in all competitions."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": 8,
+      "goals_against": 10,
+      "league_position": 15,
+      "points": 9,
+      "note": "2W-3D-2L in 7; five-match winless run in league play."
+    },
+    "h2h_summary": "10 meetings since 2005: Colchester 3, Shrewsbury 3, 4 draws. Most recent: Colchester won 2-0 away (16 Aug 2025).",
+    "key_notes": [
+      "Shrewsbury injury-hit (Ruffels, Davison, Turner-Cooke all missing per recent reporting, currency for this exact matchday not separately confirmed).",
+      "No specific Colchester injury list found.",
+      "Both teams genuinely out of form - dropped from the confident-13 set for exactly this reason."
+    ],
+    "sources": [
+      "Wikipedia (2026-27 EFL League Two)",
+      "WhoScored",
+      "squawka.com",
+      "Shropshire Star"
+    ],
+    "confidence": "low",
+    "analysis": {
+      "tactical_read": "Both sides are out of form with little to separate them on the numbers; only a marginal edge to Colchester on position and goal difference.",
+      "prediction_lean": "Genuine coin-flip",
+      "outcome_estimate": [
+        0.32,
+        0.34,
+        0.34
+      ],
+      "outcome_pick": "Draw",
+      "confidence_note": "Dropped from the top-13 confident selection - too close to call from news/form alone."
+    },
+    "external_predictions": {},
+    "actual_result": "Draw",
+    "actual_score": "2-2"
+  },
+  {
+    "match_id": "2026-09-26_aldershot_tamworth",
+    "kickoff_date": "2026-09-26",
+    "kickoff_time": "17:00",
+    "country": "England",
+    "competition": "National League",
+    "home_team": "Aldershot Town",
+    "away_team": "Tamworth",
+    "home_form": {
+      "results": [],
+      "goals_for": 10,
+      "goals_against": 7,
+      "league_position": 8,
+      "points": 15,
+      "note": "4W-3D-2L in 9; recent dip - drew 1-1 v Yeovil, lost 0-1 to Barrow just before this game."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": 16,
+      "goals_against": 23,
+      "league_position": 21,
+      "points": 8,
+      "note": "2W-2D-5L in 9; scoring goals but leaking far more."
+    },
+    "h2h_summary": "Overall since 2004 (11 games): Aldershot 5, Tamworth 5, 1 draw. Narrower recent National-League-only sample: Aldershot 1, Tamworth 2, 1 draw.",
+    "key_notes": [
+      "Manager Scott Davies in post since Apr 2026 (replaced John Coleman).",
+      "No verified current injury list for either side found.",
+      "Disruption factor: Aldershot's own recent 2-game wobble (draw then loss) right before this fixture, despite the big table gap."
+    ],
+    "sources": [
+      "Wikipedia (2026-27 National League)",
+      "Sky Sports",
+      "altonherald.com/farnhamherald.com"
+    ],
+    "confidence": "medium-high",
+    "analysis": {
+      "tactical_read": "8th vs 21st with a +3 vs -7 goal difference gap makes Aldershot clear favourites on the table, tempered only by their own recent two-game dip.",
+      "prediction_lean": "Clear edge to Aldershot",
+      "outcome_estimate": [
+        0.5,
+        0.27,
+        0.23
+      ],
+      "outcome_pick": "Home",
+      "confidence_note": "Held as a straight favourite pick across all 3 disruption-level slips - the position/GD gap is too wide to flip on a recent 2-game blip alone."
+    },
+    "external_predictions": {},
+    "actual_result": "Home",
+    "actual_score": "5-1"
+  },
+  {
+    "match_id": "2026-09-26_oldham_salford",
+    "kickoff_date": "2026-09-26",
+    "kickoff_time": "19:30",
+    "country": "England",
+    "competition": "EFL League Two",
+    "home_team": "Oldham Athletic",
+    "away_team": "Salford City",
+    "home_form": {
+      "results": [],
+      "goals_for": 8,
+      "goals_against": 9,
+      "league_position": 16,
+      "points": 7,
+      "note": "2W-1D-4L in 7; lost 3 straight in League Two coming into this game."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": 8,
+      "goals_against": 9,
+      "league_position": 12,
+      "points": 10,
+      "note": "3W-1D-3L in 7; took 10 of last 12 available points under new manager Peter Cklamovski."
+    },
+    "h2h_summary": "Salford have won 5 of the last 6 meetings; Oldham's only win in that span was 2-1 at home (Jan 2021).",
+    "key_notes": [
+      "Salford: Michael Rose out long-term (injury); Abraham Odoh back from suspension.",
+      "No specific Oldham injury list found.",
+      "A stale/conflicting search snippet claimed very different standings and was discarded as unreliable."
+    ],
+    "sources": [
+      "Wikipedia (2026-27 EFL League Two)",
+      "WhoScored",
+      "salfordcityfc.co.uk",
+      "efl.com"
+    ],
+    "confidence": "medium-high",
+    "analysis": {
+      "tactical_read": "Salford's table position, recent points return, and dominant recent head-to-head against an Oldham side on a 3-game losing streak make this the clearest away pick in the English-football set.",
+      "prediction_lean": "Clear edge to Salford",
+      "outcome_estimate": [
+        0.22,
+        0.28,
+        0.5
+      ],
+      "outcome_pick": "Away",
+      "confidence_note": "Held as a straight favourite pick across all 3 disruption-level slips."
+    },
+    "external_predictions": {},
+    "actual_result": "Away",
+    "actual_score": "1-4"
+  },
+  {
+    "match_id": "2026-09-26_roda_rkc",
+    "kickoff_date": "2026-09-26",
+    "kickoff_time": "21:00",
+    "country": "Netherlands",
+    "competition": "Eerste Divisie",
+    "home_team": "Roda JC Kerkrade",
+    "away_team": "RKC Waalwijk",
+    "home_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 8,
+      "points": null,
+      "note": "Top scorers Tim van der Leij (9 league goals) and Jesper Uneken (8)."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 4,
+      "points": null,
+      "note": "Top scorer Anthony van den Hurk (11 league goals) - notably high rate this early."
+    },
+    "h2h_summary": "28 meetings all-time: RKC 14, Roda 9, 5 draws. This season's two meetings split one win each (exact dates conflicted across sources, but both results themselves were consistent).",
+    "key_notes": [
+      "No verified injury/suspension news found for either side.",
+      "Predicted lineups suggest both sides near full strength.",
+      "Disruption factor: long-run H2H is fairly even and this season's meetings already split 1-1."
+    ],
+    "sources": [
+      "Sofascore",
+      "365scores",
+      "FIFA match centre archive",
+      "Voetbalzone",
+      "rkcwaalwijk.nl",
+      "rodajckerkrade.nl"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "RKC's higher position and their top scorer's outstanding individual form give them the edge, but the historically even head-to-head keeps this from being a lock.",
+      "prediction_lean": "Edge to RKC Waalwijk",
+      "outcome_estimate": [
+        0.32,
+        0.3,
+        0.38
+      ],
+      "outcome_pick": "Away",
+      "confidence_note": "Slip escalation: held as RKC in Slips 1-2 (light/moderate disruption); switched to Draw only in Slip 3 (heavy disruption) given the even long-run H2H."
+    },
+    "external_predictions": {},
+    "actual_result": "Home",
+    "actual_score": "2-0"
+  },
+  {
+    "match_id": "2026-09-26_england_spain",
+    "kickoff_date": "2026-09-26",
+    "kickoff_time": "21:45",
+    "country": "International",
+    "competition": "UEFA Nations League 2026-27, League A",
+    "home_team": "England",
+    "away_team": "Spain",
+    "home_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "2026 World Cup semifinalists (lost to Argentina, beat France in 3rd-place playoff). FIFA rank ~4. Missing 5 first-choice players this window: Palmer, Rice, Rashford, Mainoo, Livramento."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "Reigning 2026 World Champions, unbeaten through the tournament (beat Argentina 1-0 in the final). FIFA rank #1. Near-full strength: Yamal, Rodri, Pedri, Nico Williams all in; only Joan Garcia and Gavi out."
+    },
+    "h2h_summary": "Most recent competitive meeting: Spain won 2-1 at Euro 2024.",
+    "key_notes": [
+      "England missing 5 first-choice/rotation players for this window.",
+      "Spain essentially at full strength as reigning World Champions.",
+      "Harry Kane could equal Peter Shilton's England caps record this window."
+    ],
+    "sources": [
+      "Opta Analyst (theanalyst.com)",
+      "ESPN",
+      "Goal.com",
+      "englandfootball.com"
+    ],
+    "confidence": "high",
+    "analysis": {
+      "tactical_read": "The reigning World Champions at close to full strength against a World Cup semifinalist missing 5 key players is the single clearest gap in the entire slate.",
+      "prediction_lean": "Clear edge to Spain",
+      "outcome_estimate": [
+        0.2,
+        0.22,
+        0.58
+      ],
+      "outcome_pick": "Away",
+      "confidence_note": "Held as a straight favourite pick across all 3 disruption-level slips - highest-confidence pick in the set."
+    },
+    "external_predictions": {},
+    "actual_result": "Away",
+    "actual_score": "2-3"
+  },
+  {
+    "match_id": "2026-09-26_orleans_cannes",
+    "kickoff_date": "2026-09-26",
+    "kickoff_time": "21:45",
+    "country": "France",
+    "competition": "Ligue 3 (National, 3rd tier)",
+    "home_team": "US Orleans",
+    "away_team": "AS Cannes",
+    "home_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 14,
+      "points": null,
+      "note": "Lost 2-0 away at Amiens last outing; under pressure."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 4,
+      "points": 11,
+      "note": "Unbeaten all season; freshly promoted from National 2. Recent 3-0 win at Versailles, 1-1 draw away at Bastia (played a man light for most of the 2nd half)."
+    },
+    "h2h_summary": "Recent meetings favour Cannes: 0 Orleans wins, 1 Cannes win, 1 draw in available head-to-head data.",
+    "key_notes": [
+      "Table-position snapshots varied slightly by source (7th vs 4th for Cannes) - direction/gap is consistent even if the exact rank isn't."
+    ],
+    "sources": [
+      "Sofascore",
+      "FotMob",
+      "sportytrader.com",
+      "as-cannes.com",
+      "footmercato.net"
+    ],
+    "confidence": "medium-high",
+    "analysis": {
+      "tactical_read": "Cannes are unbeaten and thriving after promotion, while Orleans are under pressure in the bottom half - a clear form gap.",
+      "prediction_lean": "Clear edge to Cannes",
+      "outcome_estimate": [
+        0.28,
+        0.28,
+        0.44
+      ],
+      "outcome_pick": "Away",
+      "confidence_note": "Held as a straight favourite pick across all 3 disruption-level slips."
+    },
+    "external_predictions": {},
+    "actual_result": "Draw",
+    "actual_score": "0-0"
+  },
+  {
+    "match_id": "2026-09-26_paris13_bastia",
+    "kickoff_date": "2026-09-26",
+    "kickoff_time": "21:45",
+    "country": "France",
+    "competition": "Ligue 3 (National, 3rd tier)",
+    "home_team": "Paris 13 Atletico",
+    "away_team": "SC Bastia",
+    "home_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 8,
+      "points": 9,
+      "note": "2W-3D-2L in 7; solid but described as lacking incisiveness in front of goal."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 6,
+      "points": 10,
+      "note": "Turbulent post-relegation summer (departures, loans, a sale); poor home form (3 home league defeats) but notably better away form (2 wins from 2 away league games early on)."
+    },
+    "h2h_summary": "Not found - no significant historic head-to-head between these two clubs surfaced in research.",
+    "key_notes": [
+      "Bastia carry bigger institutional/budget pedigree (recent Ligue 2 club) but a disrupted squad.",
+      "Explicitly flagged by research as genuinely close."
+    ],
+    "sources": [
+      "footix.fr",
+      "tv-sports.fr",
+      "sc-bastia.corsica",
+      "fff.fr",
+      "footmercato.net"
+    ],
+    "confidence": "low-medium",
+    "analysis": {
+      "tactical_read": "Bastia's pedigree and better away-specific form give them a marginal edge, but their squad disruption post-relegation makes this a genuine toss-up rather than a real favourite.",
+      "prediction_lean": "Marginal edge to Bastia, genuinely close",
+      "outcome_estimate": [
+        0.3,
+        0.36,
+        0.34
+      ],
+      "outcome_pick": "Draw",
+      "confidence_note": "Flagged Draw from Slip 1 onward given the research explicitly called this 'genuinely close' - one of only 3 legs where light disruption alone already triggers Draw."
+    },
+    "external_predictions": {},
+    "actual_result": "Home",
+    "actual_score": "1-0"
+  },
+  {
+    "match_id": "2026-09-26_thionville_laroche",
+    "kickoff_date": "2026-09-26",
+    "kickoff_time": "21:45",
+    "country": "France",
+    "competition": "Ligue 3 (National, 3rd tier)",
+    "home_team": "Thionville US Lusitanos",
+    "away_team": "La Roche Vendee Football",
+    "home_form": {
+      "results": [],
+      "goals_for": 6,
+      "goals_against": 8,
+      "league_position": 5,
+      "points": 12,
+      "note": "Currently on a run of 3 straight league draws."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": 6,
+      "goals_against": 4,
+      "league_position": 2,
+      "points": 15,
+      "note": "Unbeaten all season - the division's form team alongside Cannes; best defensive record in the division context found."
+    },
+    "h2h_summary": "Not found - no historic head-to-head data surfaced.",
+    "key_notes": [
+      "French coverage's own framing: 'Thionville rarely loses at home, but La Roche-sur-Yon hasn't lost this season - one of these two streaks ends Saturday.'"
+    ],
+    "sources": [
+      "Sofascore",
+      "forebet.com",
+      "windrawwin.com"
+    ],
+    "confidence": "medium-high",
+    "analysis": {
+      "tactical_read": "Two genuine streaks collide - La Roche's unbeaten run and best-in-division defense vs Thionville's strong home record and current run of draws.",
+      "prediction_lean": "Slight edge to La Roche, but explicitly a coin-flip per the source coverage",
+      "outcome_estimate": [
+        0.28,
+        0.36,
+        0.36
+      ],
+      "outcome_pick": "Draw",
+      "confidence_note": "Flagged Draw from Slip 1 onward - the sourced coverage itself used explicit coin-flip framing, not just a close numeric gap."
+    },
+    "external_predictions": {},
+    "actual_result": "Away",
+    "actual_score": "1-2"
+  },
+  {
+    "match_id": "2026-09-27_mexico_colombia",
+    "kickoff_date": "2026-09-27",
+    "kickoff_time": "04:00",
+    "country": "International",
+    "competition": "International friendly (MexTour)",
+    "home_team": "Mexico",
+    "away_team": "Colombia",
+    "home_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "Eliminated World Cup 2026 Round of 16 (lost 2-3 to England). This is new head coach Rafael Marquez's competitive debut. Missing Raul Jimenez (injury); Edson Alvarez just back from injury."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "Eliminated World Cup 2026 Round of 16 on penalties (0-0, lost 4-3 PSO) to Switzerland - a narrow exit. Same coach continues (Nestor Lorenzo). Built around in-form Luis Diaz and captain James Rodriguez."
+    },
+    "h2h_summary": "29 all-time meetings: 10 Mexico, 10 Colombia, 9 draws. Most recent: Colombia won 4-0 (Oct 2025).",
+    "key_notes": [
+      "First game for both nations since the World Cup.",
+      "Disruption factor: Mexico's brand-new coach's first match in charge adds real volatility - classic new-manager-bounce scenario, and friendlies with rotated post-WC squads are inherently less predictable."
+    ],
+    "sources": [
+      "ESPN",
+      "Baltimore Sun",
+      "FMF State of Mind",
+      "Sports Mole"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Colombia have squad/coaching continuity and won the last meeting 4-0, but Mexico's new-manager debut is exactly the kind of disruption factor that produces shock results.",
+      "prediction_lean": "Marginal edge to Colombia, real upset risk from Mexico's new-manager bounce",
+      "outcome_estimate": [
+        0.32,
+        0.36,
+        0.32
+      ],
+      "outcome_pick": "Draw",
+      "confidence_note": "Flagged Draw from Slip 2 onward (moderate disruption) - Slip 1 backs Colombia on H2H momentum alone."
+    },
+    "external_predictions": {},
+    "actual_result": "Draw",
+    "actual_score": "1-1"
+  },
+  {
+    "match_id": "2026-09-27_dallas_lafc",
+    "kickoff_date": "2026-09-27",
+    "kickoff_time": "03:30",
+    "country": "United States of America",
+    "competition": "MLS, Western Conference",
+    "home_team": "FC Dallas",
+    "away_team": "Los Angeles FC",
+    "home_form": {
+      "results": [],
+      "goals_for": 49,
+      "goals_against": 42,
+      "league_position": 4,
+      "points": 44,
+      "note": "Recent form D-W-W-W-D; missing top scorer Petar Musa (18 goals) plus others on international duty."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": 43,
+      "goals_against": 29,
+      "league_position": 6,
+      "points": 41,
+      "note": "Missing a long list to international duty (Bouanga, Son Heung-min, Choiniere) - arguably a bigger hit than Dallas's absences."
+    },
+    "h2h_summary": "LAFC have won 7 of the last 14 meetings (4 Dallas, 3 draws); this season's meeting went 1-0 to LAFC, though one source flagged a conflicting 1-1 result on a different date.",
+    "key_notes": [
+      "Both sides significantly weakened by the FIFA international window; LAFC's absentee list is deeper."
+    ],
+    "sources": [
+      "Wikipedia (2026 FC Dallas/LAFC seasons)",
+      "Sports Mole",
+      "Squawka"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Dallas hold the clearer form and standings edge at home, and LAFC's international absentee list looks like the bigger squad hit of the two.",
+      "prediction_lean": "Edge to Dallas",
+      "outcome_estimate": [
+        0.42,
+        0.28,
+        0.3
+      ],
+      "outcome_pick": "Home",
+      "confidence_note": "Held as a straight favourite pick across all 3 disruption-level slips."
+    },
+    "external_predictions": {},
+    "actual_result": "Home",
+    "actual_score": "1-0"
+  },
+  {
+    "match_id": "2026-09-27_austin_sandiego",
+    "kickoff_date": "2026-09-27",
+    "kickoff_time": "03:30",
+    "country": "United States of America",
+    "competition": "MLS, Western Conference",
+    "home_team": "Austin FC",
+    "away_team": "San Diego FC",
+    "home_form": {
+      "results": [],
+      "goals_for": 32,
+      "goals_against": 44,
+      "league_position": 11,
+      "points": 30,
+      "note": "Struggling offensively; interim manager Davy Arnaud; several key absences (internationals, injury, suspension)."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": 44,
+      "goals_against": 44,
+      "league_position": 10,
+      "points": 31,
+      "note": "Recent form W-W-L-L-L including a heavy 0-5 home defeat to Philadelphia Union."
+    },
+    "h2h_summary": "First meeting March 2025 (Austin won 2-1). This season's meeting: San Diego won 5-0 - Austin's 'worst loss in club history' per their own coverage.",
+    "key_notes": [
+      "Both fighting for the final playoff berths.",
+      "Table position had a 1-spot discrepancy across sources."
+    ],
+    "sources": [
+      "Wikipedia (2026 Austin FC/San Diego FC seasons)",
+      "mlssoccer.com"
+    ],
+    "confidence": "low",
+    "analysis": {
+      "tactical_read": "San Diego hold a slight points/position edge and hammered Austin 5-0 this season, but arrive on a 3-game losing skid against an Austin side that's offensively toothless at home.",
+      "prediction_lean": "Too close to call",
+      "outcome_estimate": [
+        0.33,
+        0.32,
+        0.35
+      ],
+      "outcome_pick": "Draw",
+      "confidence_note": "Dropped from the top-13 confident selection - contradictory table sources and genuinely mixed signals."
+    },
+    "external_predictions": {},
+    "actual_result": "Draw",
+    "actual_score": "3-3"
+  },
+  {
+    "match_id": "2026-09-27_valladolid_cordoba",
+    "kickoff_date": "2026-09-27",
+    "kickoff_time": "15:00",
+    "country": "Spain",
+    "competition": "Segunda Division (LaLiga Hypermotion)",
+    "home_team": "Real Valladolid",
+    "away_team": "Cordoba CF",
+    "home_form": {
+      "results": [],
+      "goals_for": 3,
+      "goals_against": 8,
+      "league_position": 18,
+      "points": 5,
+      "note": "1W-2D-3L in 6, bottom of the table; one of the 3 goals was an own goal. Suspended: Alex Balboa."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": 9,
+      "goals_against": 13,
+      "league_position": 17,
+      "points": 6,
+      "note": "2W-0D-4L in 6; seeking back-to-back wins for the first time this season."
+    },
+    "h2h_summary": "6 Valladolid wins, 4 Cordoba, 2 draws in Segunda meetings. At Valladolid's Zorrilla specifically, Valladolid have dominated historically (9W-3D-2L); Cordoba's last visit there ended 0-0.",
+    "key_notes": [
+      "IMPORTANT: this fixture's betting odds heavily favoured Valladolid (46% implied), but the actual news contradicts that - Valladolid are bottom of the table with the joint-worst attack in the division.",
+      "Valladolid: Balboa suspended; Ojeda, Perez, Bueno injured.",
+      "Cordoba: Sanchez, Fomeyem, Adilson, Marti injured."
+    ],
+    "sources": [
+      "LaLiga.com",
+      "Goal.com",
+      "cordopolis.eldiario.es",
+      "WhoScored"
+    ],
+    "confidence": "low",
+    "analysis": {
+      "tactical_read": "Cordoba have the better points tally and (marginally) better attack, but Valladolid's dominant historical home record at Zorrilla is a real countervailing factor - genuinely close despite what the market odds implied.",
+      "prediction_lean": "Marginal edge to Cordoba, contradicts the odds-implied favourite",
+      "outcome_estimate": [
+        0.34,
+        0.32,
+        0.34
+      ],
+      "outcome_pick": "Draw",
+      "confidence_note": "Dropped from the top-13 confident selection. Notable case where market odds and actual news diverge significantly - flagged explicitly rather than trusting the odds."
+    },
+    "external_predictions": {},
+    "actual_result": "Home",
+    "actual_score": "3-1"
+  },
+  {
+    "match_id": "2026-09-27_lithuania_azerbaijan",
+    "kickoff_date": "2026-09-27",
+    "kickoff_time": "16:00",
+    "country": "International",
+    "competition": "UEFA Nations League 2026-27, League D",
+    "home_team": "Lithuania",
+    "away_team": "Azerbaijan",
+    "home_form": {
+      "results": [],
+      "goals_for": 2,
+      "goals_against": 8,
+      "league_position": null,
+      "points": null,
+      "note": "FIFA rank ~94. Poor recent form (1 win in last 5); lost 0-2 to Poland and 0-4 to Netherlands in WC qualifying. Missing Vaidas Magdusauskas (injury)."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "FIFA rank ~126 (lower than Lithuania). Detailed recent competitive form not found - genuine data gap."
+    },
+    "h2h_summary": "Sparse history - only 1 prior men's meeting found (since 2008), which Lithuania won.",
+    "key_notes": [
+      "Azerbaijan's current-season form is a genuine data gap - the favourite pick partly reflects Lithuania's higher ranking/home advantage rather than confirmed Azerbaijan weakness."
+    ],
+    "sources": [
+      "Sofascore",
+      "ESPN",
+      "Sky Sports",
+      "Wikipedia (2026-27 UEFA Nations League D)",
+      "en.fifaranking.net"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Home advantage plus a clear FIFA ranking gap favour Lithuania, though Azerbaijan's actual current form is largely undocumented.",
+      "prediction_lean": "Edge to Lithuania",
+      "outcome_estimate": [
+        0.44,
+        0.32,
+        0.24
+      ],
+      "outcome_pick": "Home",
+      "confidence_note": "Held as a straight favourite pick across all 3 disruption-level slips, though flagged as partly a data-gap-driven pick rather than confirmed weakness in Azerbaijan."
+    },
+    "external_predictions": {},
+    "actual_result": "Draw",
+    "actual_score": "1-1"
+  },
+  {
+    "match_id": "2026-09-27_gibraltar_andorra",
+    "kickoff_date": "2026-09-27",
+    "kickoff_time": "19:00",
+    "country": "International",
+    "competition": "UEFA Nations League 2026-27, League D",
+    "home_team": "Gibraltar",
+    "away_team": "Andorra",
+    "home_form": {
+      "results": [],
+      "goals_for": 1,
+      "goals_against": 14,
+      "league_position": null,
+      "points": null,
+      "note": "FIFA rank ~202-204. 0 wins in last 5."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": 3,
+      "goals_against": 10,
+      "league_position": null,
+      "points": null,
+      "note": "FIFA rank reported inconsistently (151/164/172/216 across sources). 0 wins in last 5."
+    },
+    "h2h_summary": "2 meetings since 2021: Gibraltar 1 win, 1 draw, Andorra 0 wins.",
+    "key_notes": [
+      "Both among the weakest sides in European football and both out of form.",
+      "FIFA ranking (mild edge to Andorra) and head-to-head (edge to Gibraltar) point in opposite directions."
+    ],
+    "sources": [
+      "Wikipedia (2026-27 UEFA Nations League D)",
+      "en.fifaranking.net"
+    ],
+    "confidence": "low",
+    "analysis": {
+      "tactical_read": "Ranking and head-to-head signals directly contradict each other, and both sides are out of form - no reliable edge either way from news alone.",
+      "prediction_lean": "Too close to call",
+      "outcome_estimate": [
+        0.36,
+        0.3,
+        0.34
+      ],
+      "outcome_pick": "Draw",
+      "confidence_note": "Dropped from the top-13 confident selection."
+    },
+    "external_predictions": {},
+    "actual_result": "Draw",
+    "actual_score": "0-0"
+  },
+  {
+    "match_id": "2026-09-27_israel_ireland",
+    "kickoff_date": "2026-09-27",
+    "kickoff_time": "21:45",
+    "country": "International",
+    "competition": "UEFA Nations League 2026-27, League B",
+    "home_team": "Israel",
+    "away_team": "Ireland",
+    "home_form": {
+      "results": [],
+      "goals_for": 7,
+      "goals_against": 6,
+      "league_position": null,
+      "points": null,
+      "note": "FIFA rank 76. Moderate recent form (2 wins in last 5)."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "FIFA rank 55 (better than Israel). Significant defensive injury crisis: captain Nathan Collins and Seamus Coleman both out; Evan Ferguson and Josh Cullen also out. Several uncapped debutants drafted in."
+    },
+    "h2h_summary": "Not found.",
+    "key_notes": [
+      "MAJOR CONTEXT: this fixture was relocated to a neutral venue (Debrecen, Hungary) due to political controversy over playing Israel amid the Gaza war - widespread Irish public/player opposition reported. Neither side has a true home advantage here."
+    ],
+    "sources": [
+      "fai.ie",
+      "aljazeera.com",
+      "rte.ie",
+      "irishtimes.com",
+      "Wikipedia (2026-27 UEFA Nations League B)"
+    ],
+    "confidence": "low-medium",
+    "analysis": {
+      "tactical_read": "Ireland's better FIFA ranking is undercut by a serious defensive injury crisis and several debutants; the neutral venue removes what would otherwise be Israel's home advantage.",
+      "prediction_lean": "Marginal edge to Ireland on ranking alone",
+      "outcome_estimate": [
+        0.32,
+        0.34,
+        0.34
+      ],
+      "outcome_pick": "Draw",
+      "confidence_note": "Flagged Draw only in Slip 3 (heavy disruption) - the neutral venue plus Ireland's injury crisis are real, specific reasons this favourite pick could be undercut."
+    },
+    "external_predictions": {},
+    "actual_result": "Away",
+    "actual_score": "0-3"
+  },
+  {
+    "match_id": "2026-09-27_norway_portugal",
+    "kickoff_date": "2026-09-27",
+    "kickoff_time": "21:45",
+    "country": "International",
+    "competition": "UEFA Nations League 2026-27, League A",
+    "home_team": "Norway",
+    "away_team": "Portugal",
+    "home_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "FIFA rank 19 (jumped 12 spots after reaching the 2026 World Cup quarterfinal). Erling Haaland fit, in career-best club form (7 goals in first 7 Man City games this season). Captain Odegaard fit. Sorloth ruled out injured."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "FIFA rank 7. Cristiano Ronaldo recalled to the squad. Strong squad depth: Bruno Fernandes, Bernardo Silva, Vitinha, Ruben Dias, Nuno Mendes, Diogo Costa."
+    },
+    "h2h_summary": "Not found in this research pass.",
+    "key_notes": [
+      "Portugal ranked well clear of Norway despite Norway's strong World Cup and Haaland's individual world-class club form.",
+      "Norway have home advantage - explicitly flagged by research as 'a genuine live underdog case.'"
+    ],
+    "sources": [
+      "Sky Sports",
+      "Fox Sports",
+      "uefa.com",
+      "Wikipedia (2026-27 UEFA Nations League A)"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Portugal's squad quality and ranking gap make them favourites, but Haaland's career-best individual form plus home advantage make this the most explicitly flagged upset risk in the entire slate.",
+      "prediction_lean": "Marginal edge to Portugal, real upset risk",
+      "outcome_estimate": [
+        0.34,
+        0.34,
+        0.32
+      ],
+      "outcome_pick": "Draw",
+      "confidence_note": "Flagged Draw from Slip 1 onward - research explicitly called this 'a genuine live underdog case', not just a routine close gap."
+    },
+    "external_predictions": {},
+    "actual_result": "Away",
+    "actual_score": "1-2"
+  }
+]

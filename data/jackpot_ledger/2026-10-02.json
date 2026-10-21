@@ -1,0 +1,45 @@
+{
+  "slate_id": "2026-10-02",
+  "notes": "SportPesa 13-game jackpot. Odds are the closing SportPesa prices from the results page. Slips from four build rounds (A hand-built, B-D simulation) in official jackpot order.",
+  "games": [
+    {"n": 1, "home": "Cyprus", "away": "Armenia", "odds": [2.01, 3.45, 3.65], "result": "H"},
+    {"n": 2, "home": "FK Garliava", "away": "Dainava Alytus", "odds": [3.30, 3.50, 1.89], "result": "H"},
+    {"n": 3, "home": "Fremad Amager", "away": "B 93 Copenhagen", "odds": [2.24, 3.35, 2.65], "result": "A"},
+    {"n": 4, "home": "Hestrafors IF", "away": "Onsala BK", "odds": [1.96, 3.75, 3.10], "result": "A"},
+    {"n": 5, "home": "Staffanstorp United", "away": "Solvesborgs GoIF", "odds": [2.15, 3.55, 2.75], "result": "H"},
+    {"n": 6, "home": "Smedby AIS", "away": "Nykopings BIS", "odds": [3.85, 3.70, 1.76], "result": "D"},
+    {"n": 7, "home": "Naestved BK", "away": "Nykobing FC", "odds": [2.60, 3.45, 2.23], "result": "D"},
+    {"n": 8, "home": "Lilla Torg FF", "away": "Nosaby IF", "odds": [2.18, 3.60, 2.70], "result": "A"},
+    {"n": 9, "home": "Qviding FIF", "away": "Landvetter IS", "odds": [3.35, 3.85, 1.84], "result": "A"},
+    {"n": 10, "home": "CD Eldense", "away": "Real Oviedo", "odds": [2.43, 3.05, 2.95], "result": "H"},
+    {"n": 11, "home": "Dundalk FC", "away": "Bohemians FC", "odds": [4.30, 4.00, 1.67], "result": "A"},
+    {"n": 12, "home": "Treaty United", "away": "UCD Dublin", "odds": [2.85, 3.45, 2.10], "result": "A"},
+    {"n": 13, "home": "Bosnia and Herzegovina", "away": "Sweden", "odds": [2.75, 3.60, 2.39], "result": "D"}
+  ],
+  "tipsters": [
+    {"name": "AdiBet", "correct": 7, "games": 13, "doubles": 4, "checked": "2026-10-06", "note": "singles 4/9, double chances 3/4. The only tipster with a published slip for this slate."}
+  ],
+  "slips": [
+    {"name": "A1", "style": "hand-built", "picks": "D A D H H A A D A D A A D"},
+    {"name": "A2", "style": "contrarian-coverage", "picks": "H A D A A A A A A H A A A"},
+    {"name": "A3", "style": "contrarian-coverage", "picks": "A A H H H A A D D A A H A"},
+    {"name": "B1", "style": "simulation", "picks": "H A D H H A A D A A A A A"},
+    {"name": "B2", "style": "simulation", "picks": "D A D H H A A D A D A H A"},
+    {"name": "B3", "style": "simulation", "picks": "H D D H H A A D A D A A A"},
+    {"name": "B4", "style": "simulation", "picks": "H A D H H A A D A D A D D"},
+    {"name": "B5", "style": "simulation", "picks": "D D D A H A A D A A A A A"},
+    {"name": "B6", "style": "simulation", "picks": "D A D H H A A D A H A A D"},
+    {"name": "C1", "style": "simulation", "picks": "H A D H H A A D A D A A A"},
+    {"name": "C2", "style": "simulation", "picks": "H A D H H A A H A A A A D"},
+    {"name": "C3", "style": "simulation", "picks": "D A D H H A A A A A A H A"},
+    {"name": "C4", "style": "simulation", "picks": "H A D H A H A D A A A A A"},
+    {"name": "C5", "style": "simulation", "picks": "H A A H H A A A A A A A A"},
+    {"name": "C6", "style": "simulation", "picks": "A A D H H A A H A D A H A"},
+    {"name": "D1", "style": "simulation", "picks": "H A D H H A A H A D A A A"},
+    {"name": "D2", "style": "simulation", "picks": "H A D H A A A A A H A A A"},
+    {"name": "D3", "style": "simulation", "picks": "H A H H H A A H A A A A H"},
+    {"name": "D4", "style": "simulation", "picks": "H A H H H A A D A H A A A"},
+    {"name": "D5", "style": "simulation", "picks": "A A A H H A A A A A A A H"},
+    {"name": "D6", "style": "simulation", "picks": "H A A H H A D H A A A A A"}
+  ]
+}

@@ -1,0 +1,104 @@
+[
+ {
+  "n": 1,
+  "adj_home": -20,
+  "adj_away": -25,
+  "why": "SUN: Ballard, Brobbey hamstrings, Mundle out, Reinildo susp (unconf) | BHA: Minteh, Wieffer, Mitoma, Tzimas, Ferguson out"
+ },
+ {
+  "n": 2,
+  "adj_home": -5,
+  "adj_away": -5,
+  "why": "IPS: Fatawu suspended | FUL: 12 internationals back late, all fit"
+ },
+ {
+  "n": 3,
+  "adj_home": -20,
+  "adj_away": -15,
+  "why": "AVL: Onana, Maatsen out + 4 doubts (unconf) | BRE: Furo, van den Berg out + doubts"
+ },
+ {
+  "n": 4,
+  "adj_home": -5,
+  "adj_away": -10,
+  "why": "LOR: 3 doubts | PFC: Otavio, Mbemba doubtful, Sangui unlikely"
+ },
+ {
+  "n": 5,
+  "adj_home": -35,
+  "adj_away": -10,
+  "why": "CRY: Mateta, Henderson (GK), Tomiyasu, Disasi, Riad out | NFO: Milenkovic doubt, Savona out"
+ },
+ {
+  "n": 6,
+  "adj_home": -15,
+  "adj_away": -15,
+  "why": "NIC: Abergel, Mendy out + doubts | STR: Panichelli out, flu, doubts"
+ },
+ {
+  "n": 7,
+  "adj_home": 0,
+  "adj_away": -5,
+  "why": "no data in our set: level on 16 pts (GD +2 v +3); OLO: Krivak out"
+ },
+ {
+  "n": 8,
+  "adj_home": -5,
+  "adj_away": 0,
+  "why": "GAZ: 3 internationals' return unconfirmed"
+ },
+ {
+  "n": 9,
+  "adj_home": 0,
+  "adj_away": 0,
+  "why": ""
+ },
+ {
+  "n": 10,
+  "adj_home": 0,
+  "adj_away": 0,
+  "why": ""
+ },
+ {
+  "n": 11,
+  "adj_home": 0,
+  "adj_away": -10,
+  "why": "BAS: Shaqiri doubt"
+ },
+ {
+  "n": 12,
+  "adj_home": -5,
+  "adj_away": -15,
+  "why": "EXC: Naujoks | GRO: Jeng, Janse, Mercera out"
+ },
+ {
+  "n": 13,
+  "adj_home": 15,
+  "adj_away": 0,
+  "why": "AAL: in the relegation play-off place, Sarpsborg safe with nothing to play for"
+ },
+ {
+  "n": 14,
+  "adj_home": -30,
+  "adj_away": -20,
+  "why": "LIV: Isak, Gakpo out (confirmed) | MCI: Foden suspended, Semenyo/O'Reilly doubts"
+ },
+ {
+  "n": 15,
+  "adj_home": -35,
+  "adj_away": -5,
+  "why": "MID: 6-9 out incl. defenders (manager) | FCK: absences headline"
+ },
+ {
+  "n": 16,
+  "adj_home": -10,
+  "adj_away": -20,
+  "why": "CAD: Tabatadze, Gocholeishvili out, Rivera doubt | SPG: seven absentees"
+ },
+ {
+  "n": 17,
+  "adj_home": -5,
+  "adj_away": -20,
+  "why": "RAC: Andres Martin doubt | VAL: 3 CBs injured, Rioja, Sadiq, D. Lopez out"
+ }
+]

@@ -1,0 +1,195 @@
+{
+ "jackpot": "Mega Jackpot Pro",
+ "humanId": 204,
+ "id": "bb8534d6-1c0b-429d-86d2-82761883da48",
+ "captured": "2026-10-12 EAT (SportPesa opening prices, jackpots/active feed)",
+ "events": [
+  {
+   "n": 1,
+   "kickoff_utc": "2026-10-17T19:00:00Z",
+   "home": "Valencia CF",
+   "away": "Athletic Bilbao",
+   "tournament": "LaLiga",
+   "country": "Spain",
+   "odds_h": 3.55,
+   "odds_d": 3.45,
+   "odds_a": 2.15
+  },
+  {
+   "n": 2,
+   "kickoff_utc": "2026-10-17T20:30:00Z",
+   "home": "Minnesota United FC",
+   "away": "Saint Louis City SC",
+   "tournament": "MLS",
+   "country": "United States of America",
+   "odds_h": 2.34,
+   "odds_d": 3.6,
+   "odds_a": 2.48
+  },
+  {
+   "n": 3,
+   "kickoff_utc": "2026-10-18T10:30:00Z",
+   "home": "Kasimpasa Istanbul",
+   "away": "Samsunspor",
+   "tournament": "Super Lig",
+   "country": "Turkey",
+   "odds_h": 2.5,
+   "odds_d": 3.4,
+   "odds_a": 2.65
+  },
+  {
+   "n": 4,
+   "kickoff_utc": "2026-10-18T11:00:00Z",
+   "home": "1. FC Slovacko Uherske Hradiste",
+   "away": "FC Zbrojovka Brno",
+   "tournament": "1. Liga",
+   "country": "Czechia",
+   "odds_h": 2.38,
+   "odds_d": 3.15,
+   "odds_a": 2.75
+  },
+  {
+   "n": 5,
+   "kickoff_utc": "2026-10-18T11:30:00Z",
+   "home": "Dynamo Dresden",
+   "away": "1. FC Magdeburg",
+   "tournament": "2. Bundesliga",
+   "country": "Germany",
+   "odds_h": 2.46,
+   "odds_d": 3.65,
+   "odds_a": 2.55
+  },
+  {
+   "n": 6,
+   "kickoff_utc": "2026-10-18T12:00:00Z",
+   "home": "Soenderjyske",
+   "away": "Silkeborg IF",
+   "tournament": "Superliga",
+   "country": "Denmark",
+   "odds_h": 2.55,
+   "odds_d": 3.55,
+   "odds_a": 2.6
+  },
+  {
+   "n": 7,
+   "kickoff_utc": "2026-10-18T12:30:00Z",
+   "home": "Sarpsborg 08",
+   "away": "Rosenborg BK",
+   "tournament": "Eliteserien",
+   "country": "Norway",
+   "odds_h": 2.55,
+   "odds_d": 3.65,
+   "odds_a": 2.41
+  },
+  {
+   "n": 8,
+   "kickoff_utc": "2026-10-18T12:45:00Z",
+   "home": "Zaglebie Lubin",
+   "away": "Jagiellonia Bialystok",
+   "tournament": "Ekstraklasa",
+   "country": "Poland",
+   "odds_h": 2.7,
+   "odds_d": 3.35,
+   "odds_a": 2.35
+  },
+  {
+   "n": 9,
+   "kickoff_utc": "2026-10-18T13:00:00Z",
+   "home": "Leeds United",
+   "away": "Manchester United",
+   "tournament": "Premier League",
+   "country": "England",
+   "odds_h": 2.45,
+   "odds_d": 3.6,
+   "odds_a": 2.7
+  },
+  {
+   "n": 10,
+   "kickoff_utc": "2026-10-18T13:00:00Z",
+   "home": "Kocaelispor",
+   "away": "Goztepe Izmir",
+   "tournament": "Super Lig",
+   "country": "Turkey",
+   "odds_h": 2.6,
+   "odds_d": 3.3,
+   "odds_a": 2.6
+  },
+  {
+   "n": 11,
+   "kickoff_utc": "2026-10-18T13:15:00Z",
+   "home": "FK Dinamo Moscow",
+   "away": "CSKA Moscow",
+   "tournament": "Premier League",
+   "country": "Russian Federation",
+   "odds_h": 2.3,
+   "odds_d": 3.45,
+   "odds_a": 2.55
+  },
+  {
+   "n": 12,
+   "kickoff_utc": "2026-10-18T15:00:00Z",
+   "home": "Vaalerenga IF",
+   "away": "SK Brann",
+   "tournament": "Eliteserien",
+   "country": "Norway",
+   "odds_h": 2.39,
+   "odds_d": 3.85,
+   "odds_a": 2.48
+  },
+  {
+   "n": 13,
+   "kickoff_utc": "2026-10-18T15:00:00Z",
+   "home": "Sandefjord Fotball",
+   "away": "Lillestroem SK",
+   "tournament": "Eliteserien",
+   "country": "Norway",
+   "odds_h": 2.65,
+   "odds_d": 3.5,
+   "odds_a": 2.4
+  },
+  {
+   "n": 14,
+   "kickoff_utc": "2026-10-18T15:15:00Z",
+   "home": "FC Uta Arad",
+   "away": "FC CFR 1907 Cluj",
+   "tournament": "Superliga",
+   "country": "Romania",
+   "odds_h": 2.34,
+   "odds_d": 3.0,
+   "odds_a": 2.85
+  },
+  {
+   "n": 15,
+   "kickoff_utc": "2026-10-18T15:15:00Z",
+   "home": "Le Havre AC",
+   "away": "AJ Auxerre",
+   "tournament": "Ligue 1",
+   "country": "France",
+   "odds_h": 2.5,
+   "odds_d": 3.45,
+   "odds_a": 2.85
+  },
+  {
+   "n": 16,
+   "kickoff_utc": "2026-10-18T16:00:00Z",
+   "home": "FK Jablonec",
+   "away": "FC Viktoria Plzen",
+   "tournament": "1. Liga",
+   "country": "Czechia",
+   "odds_h": 2.65,
+   "odds_d": 3.35,
+   "odds_a": 2.35
+  },
+  {
+   "n": 17,
+   "kickoff_utc": "2026-10-18T19:00:00Z",
+   "home": "Burgos CF",
+   "away": "CE Sabadell FC",
+   "tournament": "LaLiga 2",
+   "country": "Spain",
+   "odds_h": 2.48,
+   "odds_d": 2.95,
+   "odds_a": 2.95
+  }
+ ]
+}

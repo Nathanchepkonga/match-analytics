@@ -1,0 +1,2884 @@
+{
+ "slate_id": "2026-10-16",
+ "staked_ksh": 495,
+ "won_ksh": 0,
+ "notes": "SportPesa 13-game jackpot (pot KSh 16,143,860), Friday 16 Oct 2026 (user's birthday), kickoffs 20:00-22:00 EAT. Odds = SportPesa card prices pasted Mon 12 Oct. Budget KSh 500 (5 slips at KSh 99 = 495). User: 'for draws do as you want' -> evidence method (optimiser places draws). User asked for an odds comparison with Kenyan bookmakers (Odibet, Betika, Fanpesa, Paripesa) and the best sites. ODDS CHECK Mon 12 Oct ~13:00 EAT: Betika and Odibets copy SportPesa almost exactly (same Sportradar feed); independent prices = Paripesa (1xBet engine, same as 1xBet/22Bet/Megapari) and Stake.com (via BetExplorer). Pinnacle blocked in the browser pane; 'Fanpesa' not found. Market = mean of the margin-removed Kenyan group, Paripesa and Stake. Favourites agree on all 13 at every book. Discrepancies: G1 SportPesa has Gladsaxe 40.6% v market 38.3% (Paripesa level 2.46/2.45); G3 SportPesa Corum 46.6% v market 43.6% (Stake 2.41/3.50/2.65). Draws 27.0% at both. SportPesa margin 8.4% avg, ~12% on G1, G4, G10, G11. PROVISIONAL SLIPS M1-M5: optimiser, 5 slips, target 10, 7 varying games (1,2,4,5,6,9,11), half-strength R23 tilt; P(any 10+) 2.92% market / 2.99% tilt v 0.76% favourites slip; a 3-draw fifth slip was tested and lost in every scenario incl. a draw-heavy week (2.80/2.44 v 2.92/2.45). PRICE RE-CHECK Wed 14 Oct ~midday EAT (Odibets, Paripesa, Stake via BetExplorer; Betika would not open in the browser pane): market_odds_final now = Wednesday consensus (market_probs_wednesday). Moves since Monday: G1 now level 37.1/37.1 (SportPesa's Gladsaxe 2.20 was out of line; Odibets 2.65/2.35 -> 2.49/2.49, Stake 2.46/2.46); G3 Corum firmed 43.6 -> 46.3 (Monday's Stake 2.41/3.50/2.65 was stale; now 1.99/3.60/3.35); G4 dead level, over/under now 1.58/2.18 (goals expected); G6 Grenoble now marginal favourite 35.2 v 34.7 (Paripesa 2.81/2.51 -> 2.65/2.66); G13 Burnley 29.9 -> 32.2, Wolves 43.8 -> 40.8 (Paripesa 3.145/2.12 -> 2.862/2.31, Stake 2.90/2.27). Research agents (4 jackpot-researcher, 2 match-profiler) launched Wed for all 13 games incl. contracts/club situation; outputs in data/jackpot_research/2026-10-16/. RESEARCH Wed 14 Oct (data/jackpot_research/2026-10-16/: research_01-03, 04-06, 07-10, 11-13_tipsters, profiles_01-07, 08-13). No favourite changed by news; facts against favourites logged (G2 Randers 6 injured + 3 straight losses; G12 Larne 3 days' rest after Tue cup tie v Coleraine 6, Coleraine 5/5 away; G13 Wolves lost 1-3 at home to Bolton Tue, Jimenez + both Traores out, rotation talk; Burnley 20 home league games without a win). Optimiser asked to price covers on G12 and G13: covering G12 (Coleraine on one slip) 10+ 2.921 -> 2.973%; G13 Burnley on one slip 2.968%. PROVISIONAL W1-W5 saved (varying 1,2,4,5,6,9,11,12). USER RULE 14 Oct: 'a draw rule in every slip that ranges from 2-5 draws in each and every slip' + research on what causes draws (bookings, goals each team scores). Study src/draw_factors.py (46,758 matches, 24,004 balanced, fitted 2019-23, tested 2023-26): no factor reliably adds to the draw price; bookings in a team's games +1.5-2 pts in the top fifth on training data but no held-out gain (p=0.43); goals-in-their-games tiny, inconclusive (p=0.08); team draw rate, weakest attack, shots, closeness, under-2.5: nothing beyond the price. D1-D5 built: 2 draws each, only on games 5, 6, 12, 13; 10+ 2.38% v 2.97% for the free W set (about a fifth less), 9+ 9.5% v 10.9%. THURSDAY 15 Oct: prices re-checked (Odibets, Paripesa, Stake): G4 favourite flipped to Lunds (39.7 v 33.8; cause not found), G5 now level after Kebe's ban was confirmed (LFP 14 Oct). News (update_thu_01-07.md, update_thu_08-13.md): Wolves confirm Jimenez, Gomes and both Traores out; Sassuolo's Leysen ACL (season over), Idzes not starting; Larne rested all 11 in Tuesday's Shield tie (lost on pens), so no fatigue edge for Coleraine; Corum's Yilmaz off the touchline (one local source); Wisla's Youan out. USER 15 Oct: aim for all correct, 3-4 draws per slip, favourites column first. F1-F5 built: the most likely complete results with 3 draws each (exact search of all 1.6m), with slip 5's weakest draw (G9, goals expected) replaced by the two research upsets (Horsens: Randers 6 out; Burnley: Wolves 4 out). CROWD MODEL 15 Oct (src/crowd_model.py, fitted on 46 fully priced Mega cards' winner counts, held-out rank correlation 0.65-0.72): the crowd backs favourites far beyond the odds (alpha 1.72) and under-picks draws (delta -0.18), about 393k lines per Mega card. On this card an all-favourites 13/13 would be shared with about 4-17 others, F1-F5 with about 0.4-3. Jackpot-only expected winnings per KSh 495 (100k/250k/400k lines): F1-F5 168/113/82; best possible with 3-4 draws 175/118/96. F kept: within 4-15% of the best, with 34% more chance of hitting. CHECKLIST 15 Oct night (user: test the 200 factors on every game; SportPesa updated card prices, saved as odds_sportpesa_update): G5 flipped to Annecy (36.7 v 34.6). Possibly unpriced facts: G3 Rizespor's Mocsi + Kutucu out (club, Thu) -> Corum; G4 Trelleborg's Ruuska (9 goals) back, Lund's Nilsson (12) doubtful -> mild Trelleborg; G7 Wisla's Youan, Guillemenot, Kuziemko out -> Widzew; G8 Nicolaisen starts -> Toulouse; G9 Birligea back, Sassuolo also without Idzes, Boloca, I. Kone -> Frosinone (Stake drifting the other way); G11 Wexford lose Harnett + Norval to bans -> UCD; G12 Larne's Gallagher banned 3 games -> mild Coleraine; G13 mixed (Wolves' Armstrong + Jimenez out v Burnley's Ahmedhodzic out); G2 cancels (Randers' Dammers long-term v Horsens' striker absent), so Horsens upset dropped. C1-C5 built: 13/13 1 in 72,800, 10+ 1.70%, 9+ 6.6% (previous F set 1 in 70,700, 1.62%, 6.3%). FINAL Fri 16 Oct ~03:00 EAT (user: re-run news, odds from every site except Betika, favourite across platforms, 5 slips with 4-5 draws, aiming for all correct). Odds: SportPesa updated card, Odibets, Paripesa, Stake (BetExplorer), saved as book_odds_2026-10-16_am and market_probs_friday. Overnight change: G1 flipped to Koge on every site except SportPesa's card (2.33-2.35 v 2.55-2.60). Final news sweep (final_news_08-13.md): no favourite-changing news; Nicolaisen expected to start (one source); Sassuolo out Idzes, Pieragnolo, Boloca, I. Kone, Leysen; Wolves without Jimenez and Armstrong. Z1-Z5 built as the most likely tickets with 4-5 draws under research locks. Jackpot Kenya tipster string (Wed): HA H H H H H HA D D HA HA HA A. 10:00 EAT CHECK Fri 16 Oct (automated): Odibets + Paripesa + SportPesa card re-read (Stake/BetExplorer declined in browser pane; Odibets lacks G4). Only favourite flip: G5 now Nancy (Odibets 2.95/3.2/2.40, Paripesa 2.864/3.32/2.38 v 03:00 2.55/2.50 for Annecy; SportPesa card unchanged) - slips already have D on G5, so no slip change. G9 Frosinone firmed. No dated one-sided news found; Z1-Z5 kept, no Z1b-Z5b. FINAL 11:45 EAT Fri 16 Oct: deep sweep (final_deep_01-04/05-09/10-13.md): G5 swung hard to Nancy at 09:07 EAT (1xBet 2.50/2.66 -> 2.86/2.38, Stake 2.90/2.38), cause not found; G9 Frosinone firmed (Stake 2.48 -> 2.32), Sassuolo missing 5; G8 Nicolaisen ready; G10 Cobh 1.85-1.90; G13 Wolves 2.20; G6 now a coin flip (Boulogne marginal); G3 small move to Rizespor (Stake 3.40 -> 3.20), cause not found. B1-B5 built (3 draws each, user rule 3-5): 13/13 1 in 55,600, 10+ 1.85%, 9+ 7.0%. RESULTS (pasted 18 Oct): A D H A A A D A H H A A A (2 draws). Played assumed = B1-B5 (final birthday slips), KSh 495, no bonus (best 6/13).",
+ "games": [
+  {
+   "n": 1,
+   "kickoff": "2026-10-16 20:00",
+   "country": "Denmark",
+   "home": "HB Koge",
+   "away": "AB Gladsaxe",
+   "odds": [
+    2.7,
+    3.4,
+    2.2
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.65,
+     3.5,
+     2.37
+    ],
+    "Odibets": [
+     2.65,
+     3.5,
+     2.35
+    ],
+    "Paripesa (1xBet engine)": [
+     2.46,
+     3.68,
+     2.45
+    ],
+    "Stake.com": [
+     2.55,
+     3.45,
+     2.4
+    ]
+   },
+   "market_probs_monday": [
+    0.3576,
+    0.2589,
+    0.3834
+   ],
+   "market_odds_final": [
+    2.545,
+    3.936,
+    2.832
+   ],
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     2.49,
+     3.5,
+     2.49
+    ],
+    "Paripesa (1xBet engine)": [
+     2.46,
+     3.68,
+     2.45
+    ],
+    "Stake.com": [
+     2.46,
+     3.5,
+     2.46
+    ]
+   },
+   "market_probs_wednesday": [
+    0.371,
+    0.2575,
+    0.3715
+   ],
+   "profile": {
+    "h2h_home_view": "D L W W L",
+    "h2h_meetings": 5,
+    "home_pos": 8,
+    "away_pos": 7,
+    "teams": 12,
+    "home_form": "W W D D D",
+    "away_form": "W W W L L",
+    "weather": {
+     "temp_c": 13.9,
+     "rain_mm": 0.0,
+     "rain_pct": 6,
+     "wind_kmh": 14.8,
+     "gust_kmh": 26.3,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     2.49,
+     3.5,
+     2.49
+    ],
+    "Paripesa (1xBet engine)": [
+     2.46,
+     3.68,
+     2.45
+    ],
+    "Stake.com": [
+     2.46,
+     3.5,
+     2.46
+    ]
+   },
+   "market_probs_thursday": [
+    0.371,
+    0.2575,
+    0.3715
+   ],
+   "odds_sportpesa_update": [
+    2.42,
+    3.4,
+    2.42
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     2.48,
+     3.5,
+     2.49
+    ],
+    "SportPesa update": [
+     2.42,
+     3.4,
+     2.42
+    ],
+    "Paripesa (1xBet engine)": [
+     2.46,
+     3.68,
+     2.45
+    ],
+    "Stake.com": [
+     2.46,
+     3.5,
+     2.46
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.3711,
+    0.2575,
+    0.3714
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.42,
+     3.4,
+     2.42
+    ],
+    "Odibets": [
+     2.35,
+     3.55,
+     2.6
+    ],
+    "Paripesa": [
+     2.35,
+     3.66,
+     2.58
+    ],
+    "Stake": [
+     2.33,
+     3.55,
+     2.55
+    ]
+   },
+   "market_probs_friday": [
+    0.3848,
+    0.2568,
+    0.3583
+   ],
+   "market_probs_friday_excl_sp": [
+    0.3902,
+    0.255,
+    0.3549
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     2.31,
+     3.6,
+     2.65
+    ],
+    "Paripesa": [
+     2.35,
+     3.66,
+     2.58
+    ],
+    "Stake": [
+     2.33,
+     3.55,
+     2.55
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.3929,
+    0.2541,
+    0.353
+   ],
+   "market_probs_11am_all": [
+    0.3869,
+    0.2562,
+    0.357
+   ],
+   "result": "A",
+   "score": "2:3",
+   "closing_odds_sportpesa": [
+    2.25,
+    3.45,
+    2.6
+   ]
+  },
+  {
+   "n": 2,
+   "kickoff": "2026-10-16 20:00",
+   "country": "Denmark",
+   "home": "AC Horsens",
+   "away": "Randers FC",
+   "odds": [
+    2.7,
+    3.5,
+    2.45
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.7,
+     3.5,
+     2.45
+    ],
+    "Odibets": [
+     2.7,
+     3.5,
+     2.43
+    ],
+    "Paripesa (1xBet engine)": [
+     2.773,
+     3.48,
+     2.37
+    ],
+    "Stake.com": [
+     2.65,
+     3.5,
+     2.41
+    ]
+   },
+   "market_probs_monday": [
+    0.3449,
+    0.2673,
+    0.3878
+   ],
+   "market_odds_final": [
+    2.968,
+    3.737,
+    2.528
+   ],
+   "p_under": 0.469,
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     2.8,
+     3.45,
+     2.37
+    ],
+    "Paripesa (1xBet engine)": [
+     2.773,
+     3.48,
+     2.37
+    ],
+    "Stake.com": [
+     2.75,
+     3.5,
+     2.34
+    ]
+   },
+   "market_probs_wednesday": [
+    0.3363,
+    0.2684,
+    0.3953
+   ],
+   "profile": {
+    "h2h_home_view": "W L L L W",
+    "h2h_meetings": 5,
+    "home_pos": 6,
+    "away_pos": 8,
+    "teams": 12,
+    "home_form": "D D W L W",
+    "away_form": "L L W L W",
+    "weather": {
+     "temp_c": 14.4,
+     "rain_mm": 0.0,
+     "rain_pct": 28,
+     "wind_kmh": 17.2,
+     "gust_kmh": 32.0,
+     "flag": "gusts 30+, sustained under 30"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     2.8,
+     3.45,
+     2.37
+    ],
+    "Paripesa (1xBet engine)": [
+     2.773,
+     3.48,
+     2.37
+    ],
+    "Stake.com": [
+     2.75,
+     3.5,
+     2.34
+    ]
+   },
+   "market_probs_thursday": [
+    0.3363,
+    0.2684,
+    0.3953
+   ],
+   "odds_sportpesa_update": [
+    2.8,
+    3.55,
+    2.38
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     2.8,
+     3.45,
+     2.36
+    ],
+    "SportPesa update": [
+     2.8,
+     3.55,
+     2.38
+    ],
+    "Paripesa (1xBet engine)": [
+     2.773,
+     3.48,
+     2.37
+    ],
+    "Stake.com": [
+     2.75,
+     3.5,
+     2.36
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.3371,
+    0.2677,
+    0.3952
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.8,
+     3.55,
+     2.38
+    ],
+    "Odibets": [
+     2.8,
+     3.5,
+     2.35
+    ],
+    "Paripesa": [
+     2.773,
+     3.48,
+     2.37
+    ],
+    "Stake": [
+     2.75,
+     3.5,
+     2.36
+    ]
+   },
+   "market_probs_friday": [
+    0.3369,
+    0.2671,
+    0.3961
+   ],
+   "market_probs_friday_excl_sp": [
+    0.3367,
+    0.2674,
+    0.3958
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     2.8,
+     3.5,
+     2.36
+    ],
+    "Paripesa": [
+     2.773,
+     3.48,
+     2.37
+    ],
+    "Stake": [
+     2.75,
+     3.5,
+     2.36
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.3369,
+    0.2676,
+    0.3955
+   ],
+   "market_probs_11am_all": [
+    0.337,
+    0.2672,
+    0.3958
+   ],
+   "result": "D",
+   "score": "0:0",
+   "closing_odds_sportpesa": [
+    2.8,
+    3.45,
+    2.36
+   ]
+  },
+  {
+   "n": 3,
+   "kickoff": "2026-10-16 20:00",
+   "country": "Turkey",
+   "home": "Corum Bld",
+   "away": "Caykur Rizespor",
+   "odds": [
+    2.0,
+    3.6,
+    3.4
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.04,
+     3.7,
+     3.45
+    ],
+    "Odibets": [
+     2.0,
+     3.6,
+     3.4
+    ],
+    "Paripesa (1xBet engine)": [
+     2.129,
+     3.69,
+     3.44
+    ],
+    "Stake.com": [
+     2.41,
+     3.5,
+     2.65
+    ]
+   },
+   "market_probs_monday": [
+    0.4356,
+    0.2621,
+    0.3023
+   ],
+   "market_odds_final": [
+    2.129,
+    3.969,
+    3.591
+   ],
+   "p_under": 0.454,
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     2.0,
+     3.6,
+     3.4
+    ],
+    "Paripesa (1xBet engine)": [
+     2.127,
+     3.75,
+     3.395
+    ],
+    "Stake.com": [
+     1.99,
+     3.6,
+     3.35
+    ]
+   },
+   "market_probs_wednesday": [
+    0.4627,
+    0.2584,
+    0.2789
+   ],
+   "profile": {
+    "h2h_home_view": null,
+    "h2h_meetings": 0,
+    "home_pos": 8,
+    "away_pos": 10,
+    "teams": 18,
+    "home_form": "W L W W L",
+    "away_form": "L D W L W",
+    "weather": {
+     "temp_c": 10.7,
+     "rain_mm": 0.0,
+     "rain_pct": 22,
+     "wind_kmh": 4.3,
+     "gust_kmh": 12.6,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     2.0,
+     3.6,
+     3.4
+    ],
+    "Paripesa (1xBet engine)": [
+     2.127,
+     3.75,
+     3.395
+    ],
+    "Stake.com": [
+     1.99,
+     3.6,
+     3.35
+    ]
+   },
+   "market_probs_thursday": [
+    0.4627,
+    0.2584,
+    0.2789
+   ],
+   "odds_sportpesa_update": [
+    2.01,
+    3.55,
+    3.45
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     1.99,
+     3.55,
+     3.5
+    ],
+    "SportPesa update": [
+     2.01,
+     3.55,
+     3.45
+    ],
+    "Paripesa (1xBet engine)": [
+     2.043,
+     3.795,
+     3.595
+    ],
+    "Stake.com": [
+     1.99,
+     3.5,
+     3.4
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.4688,
+    0.261,
+    0.2702
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.01,
+     3.55,
+     3.45
+    ],
+    "Odibets": [
+     1.97,
+     3.6,
+     3.5
+    ],
+    "Paripesa": [
+     2.043,
+     3.795,
+     3.595
+    ],
+    "Stake": [
+     1.99,
+     3.5,
+     3.4
+    ]
+   },
+   "market_probs_friday": [
+    0.4696,
+    0.2606,
+    0.2698
+   ],
+   "market_probs_friday_excl_sp": [
+    0.471,
+    0.2596,
+    0.2694
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     2.01,
+     3.7,
+     3.3
+    ],
+    "Paripesa": [
+     2.043,
+     3.855,
+     3.54
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.4696,
+    0.252,
+    0.2784
+   ],
+   "market_probs_11am_all": [
+    0.4682,
+    0.2558,
+    0.276
+   ],
+   "result": "H",
+   "score": "2:1",
+   "closing_odds_sportpesa": [
+    1.94,
+    3.8,
+    3.45
+   ]
+  },
+  {
+   "n": 4,
+   "kickoff": "2026-10-16 20:00",
+   "country": "Sweden",
+   "home": "Lunds BK",
+   "away": "Trelleborgs FF",
+   "odds": [
+    2.44,
+    3.45,
+    2.43
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.44,
+     3.45,
+     2.43
+    ],
+    "Paripesa (1xBet engine)": [
+     2.46,
+     3.5,
+     2.45
+    ]
+   },
+   "market_probs_monday": [
+    0.3691,
+    0.2602,
+    0.3706
+   ],
+   "market_odds_final": [
+    2.548,
+    3.777,
+    2.917
+   ],
+   "book_odds_2026-10-14": {
+    "Paripesa (1xBet engine)": [
+     2.41,
+     3.46,
+     2.41
+    ]
+   },
+   "market_probs_wednesday": [
+    0.3708,
+    0.2583,
+    0.3708
+   ],
+   "p_under": 0.441,
+   "profile": {
+    "h2h_home_view": "D L",
+    "h2h_meetings": 2,
+    "home_pos": 4,
+    "away_pos": 1,
+    "teams": 16,
+    "home_form": "W L L L W",
+    "away_form": "W W W W W",
+    "weather": {
+     "temp_c": 12.3,
+     "rain_mm": 0.0,
+     "rain_pct": 7,
+     "wind_kmh": 12.8,
+     "gust_kmh": 24.1,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Paripesa (1xBet engine)": [
+     2.25,
+     3.38,
+     2.64
+    ]
+   },
+   "market_probs_thursday": [
+    0.3971,
+    0.2644,
+    0.3385
+   ],
+   "odds_sportpesa_update": [
+    2.29,
+    3.35,
+    2.65
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": null,
+    "SportPesa update": [
+     2.29,
+     3.35,
+     2.65
+    ],
+    "Paripesa (1xBet engine)": [
+     2.25,
+     3.38,
+     2.64
+    ],
+    "Stake.com": null
+   },
+   "market_probs_thursday_pm": [
+    0.3948,
+    0.2663,
+    0.3388
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.29,
+     3.35,
+     2.65
+    ],
+    "Paripesa": [
+     2.28,
+     3.38,
+     2.61
+    ]
+   },
+   "market_probs_friday": [
+    0.3925,
+    0.2665,
+    0.341
+   ],
+   "market_probs_friday_excl_sp": [
+    0.3924,
+    0.2647,
+    0.3428
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Paripesa": [
+     2.28,
+     3.38,
+     2.61
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.3924,
+    0.2647,
+    0.3428
+   ],
+   "market_probs_11am_all": [
+    0.3925,
+    0.2665,
+    0.341
+   ],
+   "result": "A",
+   "score": "2:4",
+   "closing_odds_sportpesa": [
+    2.41,
+    3.35,
+    2.5
+   ]
+  },
+  {
+   "n": 5,
+   "kickoff": "2026-10-16 21:00",
+   "country": "France",
+   "home": "Annecy FC",
+   "away": "Nancy",
+   "odds": [
+    2.65,
+    3.15,
+    2.6
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.6,
+     3.1,
+     2.55
+    ],
+    "Odibets": [
+     2.65,
+     3.2,
+     2.6
+    ],
+    "Paripesa (1xBet engine)": [
+     2.69,
+     3.38,
+     2.46
+    ],
+    "Stake.com": [
+     2.6,
+     3.1,
+     2.55
+    ]
+   },
+   "market_probs_monday": [
+    0.3487,
+    0.2872,
+    0.3641
+   ],
+   "market_odds_final": [
+    3.114,
+    3.472,
+    2.559
+   ],
+   "p_under": 0.516,
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     2.7,
+     3.25,
+     2.55
+    ],
+    "Paripesa (1xBet engine)": [
+     2.69,
+     3.38,
+     2.46
+    ],
+    "Stake.com": [
+     2.65,
+     3.15,
+     2.49
+    ]
+   },
+   "market_probs_wednesday": [
+    0.3454,
+    0.2842,
+    0.3704
+   ],
+   "profile": {
+    "h2h_home_view": "W L",
+    "h2h_meetings": 2,
+    "home_pos": 6,
+    "away_pos": 5,
+    "teams": 18,
+    "home_form": "W L L W D",
+    "away_form": "W W L L W",
+    "weather": {
+     "temp_c": 14.5,
+     "rain_mm": 0.0,
+     "rain_pct": 3,
+     "wind_kmh": 6.3,
+     "gust_kmh": 13.0,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     2.65,
+     3.2,
+     2.65
+    ],
+    "Paripesa (1xBet engine)": [
+     2.6,
+     3.35,
+     2.55
+    ],
+    "Stake.com": [
+     2.6,
+     3.2,
+     2.6
+    ]
+   },
+   "market_probs_thursday": [
+    0.3556,
+    0.2864,
+    0.3579
+   ],
+   "odds_sportpesa_update": [
+    2.55,
+    3.2,
+    2.7
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     2.55,
+     3.2,
+     2.7
+    ],
+    "SportPesa update": [
+     2.55,
+     3.2,
+     2.7
+    ],
+    "Paripesa (1xBet engine)": [
+     2.5,
+     3.34,
+     2.66
+    ],
+    "Stake.com": [
+     2.55,
+     3.2,
+     2.7
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.3672,
+    0.2866,
+    0.3462
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.55,
+     3.2,
+     2.7
+    ],
+    "Odibets": [
+     2.55,
+     3.2,
+     2.7
+    ],
+    "Paripesa": [
+     2.5,
+     3.34,
+     2.66
+    ],
+    "Stake": [
+     2.55,
+     3.2,
+     2.7
+    ]
+   },
+   "market_probs_friday": [
+    0.3666,
+    0.2876,
+    0.3458
+   ],
+   "market_probs_friday_excl_sp": [
+    0.3672,
+    0.2866,
+    0.3462
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     2.95,
+     3.2,
+     2.4
+    ],
+    "Paripesa": [
+     2.864,
+     3.32,
+     2.38
+    ],
+    "Stake": [
+     2.9,
+     3.2,
+     2.38
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.3212,
+    0.288,
+    0.3908
+   ],
+   "market_probs_11am_all": [
+    0.3321,
+    0.2887,
+    0.3793
+   ],
+   "result": "A",
+   "score": "1:2",
+   "closing_odds_sportpesa": [
+    3.3,
+    3.1,
+    2.2
+   ]
+  },
+  {
+   "n": 6,
+   "kickoff": "2026-10-16 21:00",
+   "country": "France",
+   "home": "Grenoble Foot",
+   "away": "Boulogne",
+   "odds": [
+    2.75,
+    3.05,
+    2.6
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.7,
+     2.95,
+     2.55
+    ],
+    "Odibets": [
+     2.8,
+     3.05,
+     2.6
+    ],
+    "Paripesa (1xBet engine)": [
+     2.81,
+     3.125,
+     2.51
+    ],
+    "Stake.com": [
+     2.7,
+     2.95,
+     2.55
+    ]
+   },
+   "market_probs_monday": [
+    0.3345,
+    0.304,
+    0.3615
+   ],
+   "market_odds_final": [
+    2.899,
+    3.265,
+    2.867
+   ],
+   "p_under": 0.595,
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     2.65,
+     3.1,
+     2.7
+    ],
+    "Paripesa (1xBet engine)": [
+     2.65,
+     3.125,
+     2.66
+    ],
+    "Stake.com": [
+     2.6,
+     3.0,
+     2.65
+    ]
+   },
+   "market_probs_wednesday": [
+    0.3518,
+    0.3013,
+    0.3469
+   ],
+   "profile": {
+    "h2h_home_view": "D L L W L",
+    "h2h_meetings": 5,
+    "home_pos": 14,
+    "away_pos": 16,
+    "teams": 18,
+    "home_form": "L D W L W",
+    "away_form": "D L D D D",
+    "weather": {
+     "temp_c": 17.6,
+     "rain_mm": 0.0,
+     "rain_pct": 0,
+     "wind_kmh": 5.2,
+     "gust_kmh": 10.8,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     2.65,
+     3.05,
+     2.7
+    ],
+    "Paripesa (1xBet engine)": [
+     2.65,
+     3.125,
+     2.66
+    ],
+    "Stake.com": [
+     2.65,
+     3.05,
+     2.7
+    ]
+   },
+   "market_probs_thursday": [
+    0.3511,
+    0.3026,
+    0.3463
+   ],
+   "odds_sportpesa_update": [
+    2.65,
+    3.05,
+    2.7
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     2.65,
+     3.05,
+     2.7
+    ],
+    "SportPesa update": [
+     2.65,
+     3.05,
+     2.7
+    ],
+    "Paripesa (1xBet engine)": [
+     2.65,
+     3.125,
+     2.66
+    ],
+    "Stake.com": [
+     2.65,
+     3.05,
+     2.7
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.3511,
+    0.3026,
+    0.3463
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.65,
+     3.05,
+     2.7
+    ],
+    "Odibets": [
+     2.65,
+     3.05,
+     2.7
+    ],
+    "Paripesa": [
+     2.65,
+     3.125,
+     2.66
+    ],
+    "Stake": [
+     2.65,
+     3.05,
+     2.7
+    ]
+   },
+   "market_probs_friday": [
+    0.351,
+    0.3032,
+    0.3458
+   ],
+   "market_probs_friday_excl_sp": [
+    0.3511,
+    0.3026,
+    0.3463
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     2.75,
+     3.0,
+     2.7
+    ],
+    "Paripesa": [
+     2.65,
+     3.125,
+     2.66
+    ],
+    "Stake": [
+     2.7,
+     3.0,
+     2.65
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.345,
+    0.3063,
+    0.3488
+   ],
+   "market_probs_11am_all": [
+    0.3464,
+    0.3059,
+    0.3477
+   ],
+   "result": "A",
+   "score": "0:2",
+   "closing_odds_sportpesa": [
+    2.8,
+    2.85,
+    2.7
+   ]
+  },
+  {
+   "n": 7,
+   "kickoff": "2026-10-16 21:30",
+   "country": "Poland",
+   "home": "Widzew Lodz",
+   "away": "Wisla Krakow",
+   "odds": [
+    2.25,
+    3.45,
+    2.75
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.28,
+     3.55,
+     2.8
+    ],
+    "Odibets": [
+     2.3,
+     3.6,
+     2.8
+    ],
+    "Paripesa (1xBet engine)": [
+     2.25,
+     3.54,
+     2.833
+    ],
+    "Stake.com": [
+     2.25,
+     3.45,
+     2.75
+    ]
+   },
+   "market_probs_monday": [
+    0.4075,
+    0.2624,
+    0.3301
+   ],
+   "market_odds_final": [
+    2.476,
+    3.733,
+    3.047
+   ],
+   "p_under": 0.435,
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     2.26,
+     3.6,
+     2.9
+    ],
+    "Paripesa (1xBet engine)": [
+     2.25,
+     3.54,
+     2.833
+    ],
+    "Stake.com": [
+     2.2,
+     3.45,
+     2.8
+    ]
+   },
+   "market_probs_wednesday": [
+    0.4132,
+    0.2618,
+    0.3249
+   ],
+   "profile": {
+    "h2h_home_view": "L L W L L",
+    "h2h_meetings": 5,
+    "home_pos": 13,
+    "away_pos": 6,
+    "teams": 18,
+    "home_form": "L D D D L",
+    "away_form": "L W W D W",
+    "weather": {
+     "temp_c": 8.1,
+     "rain_mm": 0.0,
+     "rain_pct": 0,
+     "wind_kmh": 7.4,
+     "gust_kmh": 14.0,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     2.27,
+     3.55,
+     2.9
+    ],
+    "Paripesa (1xBet engine)": [
+     2.25,
+     3.54,
+     2.833
+    ],
+    "Stake.com": [
+     2.2,
+     3.45,
+     2.8
+    ]
+   },
+   "market_probs_thursday": [
+    0.4123,
+    0.2629,
+    0.3247
+   ],
+   "odds_sportpesa_update": [
+    2.2,
+    3.45,
+    2.8
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     2.27,
+     3.55,
+     2.9
+    ],
+    "SportPesa update": [
+     2.2,
+     3.45,
+     2.8
+    ],
+    "Paripesa (1xBet engine)": [
+     2.25,
+     3.54,
+     2.833
+    ],
+    "Stake.com": [
+     2.24,
+     3.55,
+     2.85
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.4127,
+    0.2621,
+    0.3252
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.2,
+     3.45,
+     2.8
+    ],
+    "Odibets": [
+     2.27,
+     3.55,
+     2.9
+    ],
+    "Paripesa": [
+     2.25,
+     3.54,
+     2.833
+    ],
+    "Stake": [
+     2.24,
+     3.55,
+     2.85
+    ]
+   },
+   "market_probs_friday": [
+    0.4127,
+    0.2624,
+    0.3249
+   ],
+   "market_probs_friday_excl_sp": [
+    0.4127,
+    0.2622,
+    0.3251
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     2.33,
+     3.45,
+     2.85
+    ],
+    "Paripesa": [
+     2.28,
+     3.5,
+     2.822
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.4039,
+    0.2679,
+    0.3282
+   ],
+   "market_probs_11am_all": [
+    0.4068,
+    0.2663,
+    0.3269
+   ],
+   "result": "D",
+   "score": "0:0",
+   "closing_odds_sportpesa": [
+    2.29,
+    3.4,
+    2.7
+   ]
+  },
+  {
+   "n": 8,
+   "kickoff": "2026-10-16 21:45",
+   "country": "France",
+   "home": "Le Mans",
+   "away": "Toulouse",
+   "odds": [
+    2.95,
+    3.55,
+    2.38
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.95,
+     3.55,
+     2.38
+    ],
+    "Odibets": [
+     3.0,
+     3.6,
+     2.4
+    ],
+    "Paripesa (1xBet engine)": [
+     3.08,
+     3.545,
+     2.446
+    ],
+    "Stake.com": [
+     2.95,
+     3.55,
+     2.29
+    ]
+   },
+   "market_probs_monday": [
+    0.3218,
+    0.2716,
+    0.4066
+   ],
+   "market_odds_final": [
+    3.17,
+    3.754,
+    2.391
+   ],
+   "p_under": 0.442,
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     3.05,
+     3.6,
+     2.35
+    ],
+    "Paripesa (1xBet engine)": [
+     3.12,
+     3.61,
+     2.392
+    ],
+    "Stake.com": [
+     3.0,
+     3.55,
+     2.24
+    ]
+   },
+   "market_probs_wednesday": [
+    0.3159,
+    0.2692,
+    0.415
+   ],
+   "profile": {
+    "h2h_home_view": "L L L L D",
+    "h2h_meetings": 5,
+    "home_pos": 14,
+    "away_pos": 15,
+    "teams": 18,
+    "home_form": "L W D D L",
+    "away_form": "D W D L D",
+    "weather": {
+     "temp_c": 11.8,
+     "rain_mm": 0.0,
+     "rain_pct": 24,
+     "wind_kmh": 10.8,
+     "gust_kmh": 25.2,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     3.05,
+     3.6,
+     2.35
+    ],
+    "Paripesa (1xBet engine)": [
+     3.12,
+     3.61,
+     2.392
+    ],
+    "Stake.com": [
+     3.0,
+     3.55,
+     2.25
+    ]
+   },
+   "market_probs_thursday": [
+    0.3161,
+    0.2693,
+    0.4146
+   ],
+   "odds_sportpesa_update": [
+    2.95,
+    3.6,
+    2.37
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     3.05,
+     3.65,
+     2.34
+    ],
+    "SportPesa update": [
+     2.95,
+     3.6,
+     2.37
+    ],
+    "Paripesa (1xBet engine)": [
+     3.11,
+     3.605,
+     2.399
+    ],
+    "Stake.com": [
+     2.95,
+     3.6,
+     2.31
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.3207,
+    0.2682,
+    0.4112
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.95,
+     3.6,
+     2.37
+    ],
+    "Odibets": [
+     3.1,
+     3.65,
+     2.32
+    ],
+    "Paripesa": [
+     3.11,
+     3.605,
+     2.399
+    ],
+    "Stake": [
+     3.0,
+     3.55,
+     2.3
+    ]
+   },
+   "market_probs_friday": [
+    0.3186,
+    0.2689,
+    0.4126
+   ],
+   "market_probs_friday_excl_sp": [
+    0.316,
+    0.2693,
+    0.4147
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     3.1,
+     3.7,
+     2.28
+    ],
+    "Paripesa": [
+     3.11,
+     3.605,
+     2.399
+    ],
+    "Stake": [
+     3.0,
+     3.6,
+     2.27
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.3154,
+    0.2664,
+    0.4182
+   ],
+   "market_probs_11am_all": [
+    0.3182,
+    0.2667,
+    0.4152
+   ],
+   "result": "A",
+   "score": "0:3",
+   "closing_odds_sportpesa": [
+    3.2,
+    3.5,
+    2.21
+   ]
+  },
+  {
+   "n": 9,
+   "kickoff": "2026-10-16 21:45",
+   "country": "Italy",
+   "home": "Frosinone",
+   "away": "Sassuolo",
+   "odds": [
+    2.49,
+    3.75,
+    2.7
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.49,
+     3.75,
+     2.7
+    ],
+    "Odibets": [
+     2.49,
+     3.75,
+     2.7
+    ],
+    "Paripesa (1xBet engine)": [
+     2.533,
+     3.605,
+     2.914
+    ],
+    "Stake.com": [
+     2.39,
+     3.7,
+     2.7
+    ]
+   },
+   "market_probs_monday": [
+    0.3902,
+    0.2617,
+    0.3481
+   ],
+   "market_odds_final": [
+    2.489,
+    3.932,
+    2.908
+   ],
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     2.55,
+     3.75,
+     2.7
+    ],
+    "Paripesa (1xBet engine)": [
+     2.628,
+     3.645,
+     2.772
+    ],
+    "Stake.com": [
+     2.41,
+     3.75,
+     2.65
+    ]
+   },
+   "market_probs_wednesday": [
+    0.3825,
+    0.2604,
+    0.3571
+   ],
+   "profile": {
+    "h2h_home_view": "D W L L W",
+    "h2h_meetings": 5,
+    "home_pos": 9,
+    "away_pos": 11,
+    "teams": 20,
+    "home_form": "L W D W D",
+    "away_form": "D L W D D",
+    "weather": {
+     "temp_c": 15.8,
+     "rain_mm": 0.0,
+     "rain_pct": 0,
+     "wind_kmh": 3.9,
+     "gust_kmh": 6.8,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     2.55,
+     3.8,
+     2.65
+    ],
+    "Paripesa (1xBet engine)": [
+     2.628,
+     3.645,
+     2.772
+    ],
+    "Stake.com": [
+     2.43,
+     3.75,
+     2.6
+    ]
+   },
+   "market_probs_thursday": [
+    0.3805,
+    0.2586,
+    0.3608
+   ],
+   "odds_sportpesa_update": [
+    2.55,
+    3.75,
+    2.65
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     2.6,
+     3.8,
+     2.6
+    ],
+    "SportPesa update": [
+     2.55,
+     3.75,
+     2.65
+    ],
+    "Paripesa (1xBet engine)": [
+     2.621,
+     3.675,
+     2.763
+    ],
+    "Stake.com": [
+     2.48,
+     3.75,
+     2.65
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.3787,
+    0.2596,
+    0.3617
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.55,
+     3.75,
+     2.65
+    ],
+    "Odibets": [
+     2.6,
+     3.8,
+     2.6
+    ],
+    "Paripesa": [
+     2.621,
+     3.675,
+     2.763
+    ],
+    "Stake": [
+     2.48,
+     3.75,
+     2.65
+    ]
+   },
+   "market_probs_friday": [
+    0.3779,
+    0.2587,
+    0.3634
+   ],
+   "market_probs_friday_excl_sp": [
+    0.3778,
+    0.2592,
+    0.3631
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     2.41,
+     3.85,
+     2.8
+    ],
+    "Paripesa": [
+     2.512,
+     3.74,
+     2.858
+    ],
+    "Stake": [
+     2.32,
+     3.85,
+     2.8
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.4018,
+    0.2543,
+    0.3438
+   ],
+   "market_probs_11am_all": [
+    0.396,
+    0.2551,
+    0.3489
+   ],
+   "result": "H",
+   "score": "4:2",
+   "closing_odds_sportpesa": [
+    2.45,
+    3.65,
+    2.65
+   ]
+  },
+  {
+   "n": 10,
+   "kickoff": "2026-10-16 21:45",
+   "country": "Ireland",
+   "home": "Treaty United",
+   "away": "Cobh Ramblers",
+   "odds": [
+    3.25,
+    3.35,
+    1.95
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     3.3,
+     3.35,
+     1.97
+    ],
+    "Odibets": [
+     3.35,
+     3.4,
+     2.0
+    ],
+    "Paripesa (1xBet engine)": [
+     3.375,
+     3.44,
+     1.929
+    ]
+   },
+   "market_probs_monday": [
+    0.2709,
+    0.2657,
+    0.4634
+   ],
+   "market_odds_final": [
+    3.885,
+    3.871,
+    2.065
+   ],
+   "p_under": 0.476,
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     3.25,
+     3.45,
+     2.02
+    ],
+    "Paripesa (1xBet engine)": [
+     3.375,
+     3.44,
+     1.929
+    ]
+   },
+   "market_probs_wednesday": [
+    0.2748,
+    0.2641,
+    0.461
+   ],
+   "profile": {
+    "h2h_home_view": "L L L D W",
+    "h2h_meetings": 5,
+    "home_pos": 9,
+    "away_pos": 6,
+    "teams": 10,
+    "home_form": "W L W L W",
+    "away_form": "L W D L W",
+    "weather": {
+     "temp_c": 7.9,
+     "rain_mm": 0.0,
+     "rain_pct": 0,
+     "wind_kmh": 9.7,
+     "gust_kmh": 15.8,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     3.3,
+     3.45,
+     2.02
+    ],
+    "Paripesa (1xBet engine)": [
+     3.375,
+     3.44,
+     1.929
+    ],
+    "Stake.com": [
+     3.25,
+     3.4,
+     2.01
+    ]
+   },
+   "market_probs_thursday": [
+    0.2755,
+    0.2657,
+    0.4589
+   ],
+   "odds_sportpesa_update": [
+    3.15,
+    3.4,
+    1.98
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     3.3,
+     3.45,
+     2.02
+    ],
+    "SportPesa update": [
+     3.15,
+     3.4,
+     1.98
+    ],
+    "Paripesa (1xBet engine)": [
+     3.375,
+     3.44,
+     1.929
+    ],
+    "Stake.com": [
+     3.25,
+     3.4,
+     2.01
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.2765,
+    0.2651,
+    0.4584
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     3.15,
+     3.4,
+     1.98
+    ],
+    "Odibets": [
+     3.3,
+     3.45,
+     2.02
+    ],
+    "Paripesa": [
+     3.375,
+     3.44,
+     1.929
+    ],
+    "Stake": [
+     3.25,
+     3.4,
+     2.01
+    ]
+   },
+   "market_probs_friday": [
+    0.2777,
+    0.2651,
+    0.4572
+   ],
+   "market_probs_friday_excl_sp": [
+    0.2755,
+    0.2657,
+    0.4589
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     3.55,
+     3.55,
+     1.9
+    ],
+    "Paripesa": [
+     3.56,
+     3.52,
+     1.85
+    ],
+    "Stake": [
+     3.5,
+     3.5,
+     1.89
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.2574,
+    0.2584,
+    0.4842
+   ],
+   "market_probs_11am_all": [
+    0.2641,
+    0.2596,
+    0.4763
+   ],
+   "result": "H",
+   "score": "2:0",
+   "closing_odds_sportpesa": [
+    4.0,
+    3.65,
+    1.68
+   ]
+  },
+  {
+   "n": 11,
+   "kickoff": "2026-10-16 21:45",
+   "country": "Ireland",
+   "home": "Wexford Youths",
+   "away": "UCD Dublin",
+   "odds": [
+    2.36,
+    3.4,
+    2.5
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.38,
+     3.4,
+     2.5
+    ],
+    "Odibets": [
+     2.42,
+     3.5,
+     2.55
+    ],
+    "Paripesa (1xBet engine)": [
+     2.31,
+     3.54,
+     2.48
+    ]
+   },
+   "market_probs_monday": [
+    0.3826,
+    0.2578,
+    0.3596
+   ],
+   "market_odds_final": [
+    2.62,
+    3.864,
+    2.781
+   ],
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     2.42,
+     3.5,
+     2.55
+    ],
+    "Paripesa (1xBet engine)": [
+     2.31,
+     3.54,
+     2.48
+    ]
+   },
+   "market_probs_wednesday": [
+    0.3829,
+    0.2572,
+    0.3599
+   ],
+   "profile": {
+    "h2h_home_view": "L W D L L",
+    "h2h_meetings": 5,
+    "home_pos": 8,
+    "away_pos": 3,
+    "teams": 10,
+    "home_form": "D D L W L",
+    "away_form": "D W L L D",
+    "weather": {
+     "temp_c": 8.7,
+     "rain_mm": 0.0,
+     "rain_pct": 0,
+     "wind_kmh": 14.0,
+     "gust_kmh": 20.2,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     2.43,
+     3.45,
+     2.55
+    ],
+    "Paripesa (1xBet engine)": [
+     2.31,
+     3.54,
+     2.48
+    ],
+    "Stake.com": [
+     2.4,
+     3.45,
+     2.55
+    ]
+   },
+   "market_probs_thursday": [
+    0.3809,
+    0.2605,
+    0.3587
+   ],
+   "odds_sportpesa_update": [
+    2.36,
+    3.4,
+    2.5
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     2.43,
+     3.45,
+     2.55
+    ],
+    "SportPesa update": [
+     2.36,
+     3.4,
+     2.5
+    ],
+    "Paripesa (1xBet engine)": [
+     2.31,
+     3.54,
+     2.48
+    ],
+    "Stake.com": [
+     2.4,
+     3.45,
+     2.55
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.3813,
+    0.2601,
+    0.3585
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.36,
+     3.4,
+     2.5
+    ],
+    "Odibets": [
+     2.43,
+     3.45,
+     2.55
+    ],
+    "Paripesa": [
+     2.31,
+     3.54,
+     2.48
+    ],
+    "Stake": [
+     2.4,
+     3.45,
+     2.55
+    ]
+   },
+   "market_probs_friday": [
+    0.3804,
+    0.2611,
+    0.3585
+   ],
+   "market_probs_friday_excl_sp": [
+    0.3809,
+    0.2605,
+    0.3587
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     2.43,
+     3.45,
+     2.55
+    ],
+    "Paripesa": [
+     2.31,
+     3.54,
+     2.48
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.3817,
+    0.2588,
+    0.3595
+   ],
+   "market_probs_11am_all": [
+    0.3808,
+    0.2602,
+    0.359
+   ],
+   "result": "A",
+   "score": "2:5",
+   "closing_odds_sportpesa": [
+    2.5,
+    3.45,
+    2.33
+   ]
+  },
+  {
+   "n": 12,
+   "kickoff": "2026-10-16 21:45",
+   "country": "Northern Ireland",
+   "home": "Larne",
+   "away": "Coleraine FC",
+   "odds": [
+    2.23,
+    3.25,
+    2.85
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     2.25,
+     3.25,
+     2.85
+    ],
+    "Odibets": [
+     2.27,
+     3.3,
+     2.9
+    ],
+    "Paripesa (1xBet engine)": [
+     2.28,
+     3.04,
+     2.954
+    ],
+    "Stake.com": [
+     2.25,
+     3.25,
+     2.85
+    ]
+   },
+   "market_probs_monday": [
+    0.4012,
+    0.2849,
+    0.3138
+   ],
+   "market_odds_final": [
+    2.525,
+    3.45,
+    3.184
+   ],
+   "p_under": 0.527,
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     2.32,
+     3.25,
+     2.85
+    ],
+    "Paripesa (1xBet engine)": [
+     2.28,
+     3.04,
+     2.954
+    ],
+    "Stake.com": [
+     2.3,
+     3.2,
+     2.8
+    ]
+   },
+   "market_probs_wednesday": [
+    0.3953,
+    0.2876,
+    0.3172
+   ],
+   "profile": {
+    "h2h_home_view": "D L L W W",
+    "h2h_meetings": 5,
+    "home_pos": 3,
+    "away_pos": 1,
+    "teams": 12,
+    "home_form": "W W W W W",
+    "away_form": "W W L W W",
+    "weather": {
+     "temp_c": 8.8,
+     "rain_mm": 0.0,
+     "rain_pct": 0,
+     "wind_kmh": 19.1,
+     "gust_kmh": 30.2,
+     "flag": "gusts 30+, sustained under 30"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     2.32,
+     3.25,
+     2.85
+    ],
+    "Paripesa (1xBet engine)": [
+     2.28,
+     3.04,
+     2.954
+    ],
+    "Stake.com": [
+     2.3,
+     3.2,
+     2.8
+    ]
+   },
+   "market_probs_thursday": [
+    0.3953,
+    0.2876,
+    0.3172
+   ],
+   "odds_sportpesa_update": [
+    2.28,
+    3.2,
+    2.8
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     2.32,
+     3.25,
+     2.85
+    ],
+    "SportPesa update": [
+     2.28,
+     3.2,
+     2.8
+    ],
+    "Paripesa (1xBet engine)": [
+     2.28,
+     3.04,
+     2.954
+    ],
+    "Stake.com": [
+     2.3,
+     3.2,
+     2.8
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.3953,
+    0.2875,
+    0.3172
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.28,
+     3.2,
+     2.8
+    ],
+    "Odibets": [
+     2.32,
+     3.25,
+     2.85
+    ],
+    "Paripesa": [
+     2.28,
+     3.04,
+     2.954
+    ],
+    "Stake": [
+     2.3,
+     3.2,
+     2.8
+    ]
+   },
+   "market_probs_friday": [
+    0.3954,
+    0.2862,
+    0.3184
+   ],
+   "market_probs_friday_excl_sp": [
+    0.3953,
+    0.2876,
+    0.3172
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     2.32,
+     3.25,
+     2.85
+    ],
+    "Paripesa": [
+     2.28,
+     3.04,
+     2.954
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.3961,
+    0.2899,
+    0.314
+   ],
+   "market_probs_11am_all": [
+    0.396,
+    0.2873,
+    0.3168
+   ],
+   "result": "A",
+   "score": "2:3",
+   "closing_odds_sportpesa": [
+    2.21,
+    3.2,
+    2.9
+   ]
+  },
+  {
+   "n": 13,
+   "kickoff": "2026-10-16 22:00",
+   "country": "England",
+   "home": "Burnley",
+   "away": "Wolverhampton",
+   "odds": [
+    3.2,
+    3.6,
+    2.18
+   ],
+   "book_odds_2026-10-12": {
+    "Betika": [
+     3.2,
+     3.6,
+     2.18
+    ],
+    "Odibets": [
+     3.2,
+     3.65,
+     2.2
+    ],
+    "Paripesa (1xBet engine)": [
+     3.145,
+     3.56,
+     2.12
+    ],
+    "Stake.com": [
+     3.1,
+     3.55,
+     2.13
+    ]
+   },
+   "market_probs_monday": [
+    0.2987,
+    0.263,
+    0.4383
+   ],
+   "market_odds_final": [
+    3.268,
+    3.716,
+    2.353
+   ],
+   "p_under": 0.478,
+   "book_odds_2026-10-14": {
+    "Odibets": [
+     3.05,
+     3.6,
+     2.38
+    ],
+    "Paripesa (1xBet engine)": [
+     2.862,
+     3.48,
+     2.31
+    ],
+    "Stake.com": [
+     2.9,
+     3.45,
+     2.27
+    ]
+   },
+   "market_probs_wednesday": [
+    0.3223,
+    0.2697,
+    0.408
+   ],
+   "profile": {
+    "h2h_home_view": "D W L D L",
+    "h2h_meetings": 5,
+    "home_pos": 21,
+    "away_pos": 9,
+    "teams": 24,
+    "home_form": "D W D L D",
+    "away_form": "L L W L W",
+    "weather": {
+     "temp_c": 7.8,
+     "rain_mm": 0.0,
+     "rain_pct": 6,
+     "wind_kmh": 9.0,
+     "gust_kmh": 16.2,
+     "flag": "normal"
+    },
+    "captured": "2026-10-14 02:00 EAT"
+   },
+   "book_odds_2026-10-15": {
+    "Odibets": [
+     3.05,
+     3.6,
+     2.38
+    ],
+    "Paripesa (1xBet engine)": [
+     2.862,
+     3.48,
+     2.31
+    ],
+    "Stake.com": [
+     2.9,
+     3.45,
+     2.27
+    ]
+   },
+   "market_probs_thursday": [
+    0.3223,
+    0.2697,
+    0.408
+   ],
+   "odds_sportpesa_update": [
+    2.95,
+    3.55,
+    2.33
+   ],
+   "book_odds_2026-10-15_pm": {
+    "Odibets": [
+     3.05,
+     3.6,
+     2.37
+    ],
+    "SportPesa update": [
+     2.95,
+     3.55,
+     2.33
+    ],
+    "Paripesa (1xBet engine)": [
+     2.862,
+     3.48,
+     2.31
+    ],
+    "Stake.com": [
+     2.9,
+     3.45,
+     2.29
+    ]
+   },
+   "market_probs_thursday_pm": [
+    0.3232,
+    0.2695,
+    0.4073
+   ],
+   "book_odds_2026-10-16_am": {
+    "SportPesa": [
+     2.95,
+     3.55,
+     2.33
+    ],
+    "Odibets": [
+     3.05,
+     3.6,
+     2.37
+    ],
+    "Paripesa": [
+     2.862,
+     3.48,
+     2.31
+    ],
+    "Stake": [
+     2.9,
+     3.45,
+     2.29
+    ]
+   },
+   "market_probs_friday": [
+    0.3226,
+    0.2695,
+    0.4079
+   ],
+   "market_probs_friday_excl_sp": [
+    0.3225,
+    0.2698,
+    0.4076
+   ],
+   "book_odds_2026-10-16_11am": {
+    "Odibets": [
+     3.2,
+     3.6,
+     2.28
+    ],
+    "Paripesa": [
+     3.03,
+     3.5,
+     2.2
+    ],
+    "Stake": [
+     3.05,
+     3.45,
+     2.2
+    ]
+   },
+   "market_probs_11am_excl_sp": [
+    0.306,
+    0.2691,
+    0.425
+   ],
+   "market_probs_11am_all": [
+    0.3102,
+    0.2689,
+    0.4209
+   ],
+   "result": "A",
+   "score": "1:2",
+   "closing_odds_sportpesa": [
+    2.85,
+    3.45,
+    2.44
+   ]
+  }
+ ],
+ "tipsters": [
+  {
+   "name": "SportPesaJackpot.com (AI)",
+   "picks": "D A H A D A H A H A H H A",
+   "captured": "2026-10-14 08:00-08:20 EAT"
+  },
+  {
+   "name": "Sokapedia 1X2",
+   "picks": "H H H A A A A A H A A H A",
+   "captured": "2026-10-14 08:00-08:20 EAT"
+  },
+  {
+   "name": "Sokapedia double chance",
+   "picks": "HA HA HA DA HA HA DA HA HA DA DA HD HA",
+   "captured": "2026-10-14 08:00-08:20 EAT"
+  },
+  {
+   "name": "FreeWinningTips / Pitch Predictions",
+   "picks": "H H H A H H A H H A A H A",
+   "captured": "2026-10-14 08:00-08:20 EAT"
+  },
+  {
+   "name": "Jackpot Kenya",
+   "picks": "HA H H H H H HA D D HA HA HA A",
+   "captured": "2026-10-14 (posted Wed), recorded Fri 16 Oct 02:45 EAT"
+  }
+ ],
+ "slips": [
+  {
+   "name": "M1",
+   "style": "tail-optimizer",
+   "picks": "A A H A A A H A H A H H A",
+   "played": false,
+   "note": "provisional Mon 12 Oct (market consensus + half-strength R23 tilt); rebuild Fri after research and latest prices"
+  },
+  {
+   "name": "M2",
+   "style": "tail-optimizer",
+   "picks": "A A H H H A H A H A A H A",
+   "played": false,
+   "note": "provisional Mon 12 Oct (market consensus + half-strength R23 tilt); rebuild Fri after research and latest prices"
+  },
+  {
+   "name": "M3",
+   "style": "tail-optimizer",
+   "picks": "H A H H A H H A A A H H A",
+   "played": false,
+   "note": "provisional Mon 12 Oct (market consensus + half-strength R23 tilt); rebuild Fri after research and latest prices"
+  },
+  {
+   "name": "M4",
+   "style": "tail-optimizer",
+   "picks": "H H H A H D H A H A H H A",
+   "played": false,
+   "note": "provisional Mon 12 Oct (market consensus + half-strength R23 tilt); rebuild Fri after research and latest prices"
+  },
+  {
+   "name": "M5",
+   "style": "tail-optimizer",
+   "picks": "A H H A A A H A A A A H A",
+   "played": false,
+   "note": "provisional Mon 12 Oct (market consensus + half-strength R23 tilt); rebuild Fri after research and latest prices"
+  },
+  {
+   "name": "W1",
+   "style": "tail-optimizer",
+   "picks": "A A H H H H H A H A H A A",
+   "played": false,
+   "note": "provisional Wed 14 Oct after research: Wednesday market consensus + half-strength R23 tilt, varying 1,2,4,5,6,9,11,12; final rebuild Fri morning on latest prices"
+  },
+  {
+   "name": "W2",
+   "style": "tail-optimizer",
+   "picks": "H A H A A H H A H A H H A",
+   "played": false,
+   "note": "provisional Wed 14 Oct after research: Wednesday market consensus + half-strength R23 tilt, varying 1,2,4,5,6,9,11,12; final rebuild Fri morning on latest prices"
+  },
+  {
+   "name": "W3",
+   "style": "tail-optimizer",
+   "picks": "A A H A H A H A A A A H A",
+   "played": false,
+   "note": "provisional Wed 14 Oct after research: Wednesday market consensus + half-strength R23 tilt, varying 1,2,4,5,6,9,11,12; final rebuild Fri morning on latest prices"
+  },
+  {
+   "name": "W4",
+   "style": "tail-optimizer",
+   "picks": "H A H H A D H A H A A H A",
+   "played": false,
+   "note": "provisional Wed 14 Oct after research: Wednesday market consensus + half-strength R23 tilt, varying 1,2,4,5,6,9,11,12; final rebuild Fri morning on latest prices"
+  },
+  {
+   "name": "W5",
+   "style": "tail-optimizer",
+   "picks": "A H H H A A H A A A H H A",
+   "played": false,
+   "note": "provisional Wed 14 Oct after research: Wednesday market consensus + half-strength R23 tilt, varying 1,2,4,5,6,9,11,12; final rebuild Fri morning on latest prices"
+  },
+  {
+   "name": "D1",
+   "style": "draw-rule-2-5",
+   "picks": "A A H H D D H A H A H H A",
+   "played": false,
+   "note": "user rule 14 Oct: 2-5 draws in every slip; optimiser on Wednesday market + half-strength R23 tilt, draws allowed only on research-backed games 5, 6, 12, 13 (cheapest draw price, Ligue 2 35% draws this season, Boulogne 6 draws in 8 and 1.25 goals per game in their matches); 2 draws per slip is the cheapest point; final rebuild Fri on latest prices"
+  },
+  {
+   "name": "D2",
+   "style": "draw-rule-2-5",
+   "picks": "H A H A A D H A H A A D A",
+   "played": false,
+   "note": "user rule 14 Oct: 2-5 draws in every slip; optimiser on Wednesday market + half-strength R23 tilt, draws allowed only on research-backed games 5, 6, 12, 13 (cheapest draw price, Ligue 2 35% draws this season, Boulogne 6 draws in 8 and 1.25 goals per game in their matches); 2 draws per slip is the cheapest point; final rebuild Fri on latest prices"
+  },
+  {
+   "name": "D3",
+   "style": "draw-rule-2-5",
+   "picks": "A A H H A H H A A A A D D",
+   "played": false,
+   "note": "user rule 14 Oct: 2-5 draws in every slip; optimiser on Wednesday market + half-strength R23 tilt, draws allowed only on research-backed games 5, 6, 12, 13 (cheapest draw price, Ligue 2 35% draws this season, Boulogne 6 draws in 8 and 1.25 goals per game in their matches); 2 draws per slip is the cheapest point; final rebuild Fri on latest prices"
+  },
+  {
+   "name": "D4",
+   "style": "draw-rule-2-5",
+   "picks": "H A H A D H H A A A H H D",
+   "played": false,
+   "note": "user rule 14 Oct: 2-5 draws in every slip; optimiser on Wednesday market + half-strength R23 tilt, draws allowed only on research-backed games 5, 6, 12, 13 (cheapest draw price, Ligue 2 35% draws this season, Boulogne 6 draws in 8 and 1.25 goals per game in their matches); 2 draws per slip is the cheapest point; final rebuild Fri on latest prices"
+  },
+  {
+   "name": "D5",
+   "style": "draw-rule-2-5",
+   "picks": "A H H A H D H A A A H D A",
+   "played": false,
+   "note": "user rule 14 Oct: 2-5 draws in every slip; optimiser on Wednesday market + half-strength R23 tilt, draws allowed only on research-backed games 5, 6, 12, 13 (cheapest draw price, Ligue 2 35% draws this season, Boulogne 6 draws in 8 and 1.25 goals per game in their matches); 2 draws per slip is the cheapest point; final rebuild Fri on latest prices"
+  },
+  {
+   "name": "F1",
+   "style": "jackpot-aimed-3draws",
+   "picks": "A A H H D D H A H A H D A",
+   "played": false,
+   "note": "Thu 15 Oct, aimed at all 13 correct (user: 'aiming for 17 out of 17', 3-4 draws per slip); favourites + draws on 5, 6, 12; 13/13 1 in 320,551; final check Fri morning"
+  },
+  {
+   "name": "F2",
+   "style": "jackpot-aimed-3draws",
+   "picks": "D A H H D D H A H A H H A",
+   "played": false,
+   "note": "Thu 15 Oct, aimed at all 13 correct (user: 'aiming for 17 out of 17', 3-4 draws per slip); favourites + draws on 1, 5, 6; 13/13 1 in 336,466; final check Fri morning"
+  },
+  {
+   "name": "F3",
+   "style": "jackpot-aimed-3draws",
+   "picks": "H A H H D D H A H A H D A",
+   "played": false,
+   "note": "Thu 15 Oct, aimed at all 13 correct (user: 'aiming for 17 out of 17', 3-4 draws per slip); Koge + draws on 5, 6, 12; 13/13 1 in 320,983; final check Fri morning"
+  },
+  {
+   "name": "F4",
+   "style": "jackpot-aimed-3draws",
+   "picks": "A A H H D D H A H A D H A",
+   "played": false,
+   "note": "Thu 15 Oct, aimed at all 13 correct (user: 'aiming for 17 out of 17', 3-4 draws per slip); favourites + draws on 5, 6, 11; 13/13 1 in 341,007; final check Fri morning"
+  },
+  {
+   "name": "F5",
+   "style": "jackpot-aimed-3draws",
+   "picks": "A H H H D D H A H A H D H",
+   "played": false,
+   "note": "Thu 15 Oct, aimed at all 13 correct (user: 'aiming for 17 out of 17', 3-4 draws per slip); research upsets Horsens + Burnley, draws on 5, 6, 12; 13/13 1 in 476,977; final check Fri morning"
+  },
+  {
+   "name": "C1",
+   "style": "checklist-200-final",
+   "picks": "A A H H D D H A H A H D A",
+   "played": false,
+   "note": "Thu night 15 Oct, 200-factor checklist (checklist_01-04/05-09/10-13.md) on latest prices; all-correct aim, 3 draws each; favourites + draws 5, 6, 12"
+  },
+  {
+   "name": "C2",
+   "style": "checklist-200-final",
+   "picks": "D A H H D D H A H A A H A",
+   "played": false,
+   "note": "Thu night 15 Oct, 200-factor checklist (checklist_01-04/05-09/10-13.md) on latest prices; all-correct aim, 3 draws each; draw 1 + draws 5, 6; UCD (Wexford lose Harnett and Norval to bans)"
+  },
+  {
+   "name": "C3",
+   "style": "checklist-200-final",
+   "picks": "H A H H D D H A H A A D A",
+   "played": false,
+   "note": "Thu night 15 Oct, 200-factor checklist (checklist_01-04/05-09/10-13.md) on latest prices; all-correct aim, 3 draws each; Koge + draws 5, 6, 12; UCD"
+  },
+  {
+   "name": "C4",
+   "style": "checklist-200-final",
+   "picks": "A A H A D D H A H A D H A",
+   "played": false,
+   "note": "Thu night 15 Oct, 200-factor checklist (checklist_01-04/05-09/10-13.md) on latest prices; all-correct aim, 3 draws each; Trelleborg (Ruuska back, Lund's top scorer doubtful) + draws 5, 6, 11"
+  },
+  {
+   "name": "C5",
+   "style": "checklist-200-final",
+   "picks": "A A H H D D H A H A H D H",
+   "played": false,
+   "note": "Thu night 15 Oct, 200-factor checklist (checklist_01-04/05-09/10-13.md) on latest prices; all-correct aim, 3 draws each; Burnley (Wolves' two strikers out) + draws 5, 6, 12"
+  },
+  {
+   "name": "Z1",
+   "style": "final-4-5-draws",
+   "picks": "H A H H D D H A H A D D A",
+   "played": false,
+   "note": "FINAL Fri 16 Oct ~03:00 EAT: consensus of SportPesa card, Odibets, Paripesa, Stake (Betika excluded per user); half R23 tilt; all-correct aim; user draw rule 4-5 per slip; Frosinone locked (Sassuolo missing 5); most likely 4-draw ticket (draws 5, 6, 11, 12)"
+  },
+  {
+   "name": "Z2",
+   "style": "final-4-5-draws",
+   "picks": "H A H D D D H A H A A D A",
+   "played": false,
+   "note": "FINAL Fri 16 Oct ~03:00 EAT: consensus of SportPesa card, Odibets, Paripesa, Stake (Betika excluded per user); half R23 tilt; all-correct aim; user draw rule 4-5 per slip; Frosinone locked (Sassuolo missing 5); UCD (Wexford lose Harnett + Norval to bans) + draw on Lunds-Trelleborg"
+  },
+  {
+   "name": "Z3",
+   "style": "final-4-5-draws",
+   "picks": "H D H H D D H A H A A D A",
+   "played": false,
+   "note": "FINAL Fri 16 Oct ~03:00 EAT: consensus of SportPesa card, Odibets, Paripesa, Stake (Betika excluded per user); half R23 tilt; all-correct aim; user draw rule 4-5 per slip; Frosinone locked (Sassuolo missing 5); UCD + draw on Horsens-Randers"
+  },
+  {
+   "name": "Z4",
+   "style": "final-4-5-draws",
+   "picks": "H A H A D D H A H A D D A",
+   "played": false,
+   "note": "FINAL Fri 16 Oct ~03:00 EAT: consensus of SportPesa card, Odibets, Paripesa, Stake (Betika excluded per user); half R23 tilt; all-correct aim; user draw rule 4-5 per slip; Frosinone locked (Sassuolo missing 5); Trelleborg (Ruuska back, Lund's Nilsson doubtful)"
+  },
+  {
+   "name": "Z5",
+   "style": "final-4-5-draws",
+   "picks": "H A H H D D H A H A D D H",
+   "played": false,
+   "note": "FINAL Fri 16 Oct ~03:00 EAT: consensus of SportPesa card, Odibets, Paripesa, Stake (Betika excluded per user); half R23 tilt; all-correct aim; user draw rule 4-5 per slip; Frosinone locked (Sassuolo missing 5); Burnley (Wolves' strikers Jimenez + Armstrong out)"
+  },
+  {
+   "name": "B1",
+   "style": "birthday-final-3-5-draws",
+   "picks": "H A H H D D H A H A H D A",
+   "played": true,
+   "note": "FINAL Fri 16 Oct ~11:45 EAT (user: final deep research, 7 columns incl. favourite and bookmakers' pick excluding SportPesa, 3-5 draws per slip): 11:00 consensus of Odibets, Paripesa, Stake (SportPesa excluded); half R23 tilt; all-correct aim; Frosinone and Toulouse locked; most likely 3-draw ticket",
+   "reasons": {
+    "1": "late-move",
+    "4": "late-move",
+    "5": "draw-rule",
+    "6": "draw-rule",
+    "12": "draw-rule"
+   }
+  },
+  {
+   "name": "B2",
+   "style": "birthday-final-3-5-draws",
+   "picks": "H A H H D D H A H A A D A",
+   "played": true,
+   "note": "FINAL Fri 16 Oct ~11:45 EAT (user: final deep research, 7 columns incl. favourite and bookmakers' pick excluding SportPesa, 3-5 draws per slip): 11:00 consensus of Odibets, Paripesa, Stake (SportPesa excluded); half R23 tilt; all-correct aim; Frosinone and Toulouse locked; UCD (Wexford lose 2 to bans)",
+   "reasons": {
+    "1": "late-move",
+    "4": "late-move",
+    "5": "draw-rule",
+    "6": "draw-rule",
+    "11": "news",
+    "12": "draw-rule"
+   }
+  },
+  {
+   "name": "B3",
+   "style": "birthday-final-3-5-draws",
+   "picks": "H D H H D D H A H A A H A",
+   "played": true,
+   "note": "FINAL Fri 16 Oct ~11:45 EAT (user: final deep research, 7 columns incl. favourite and bookmakers' pick excluding SportPesa, 3-5 draws per slip): 11:00 consensus of Odibets, Paripesa, Stake (SportPesa excluded); half R23 tilt; all-correct aim; Frosinone and Toulouse locked; UCD + draw on Horsens-Randers",
+   "reasons": {
+    "1": "late-move",
+    "2": "draw-rule",
+    "4": "late-move",
+    "5": "draw-rule",
+    "6": "draw-rule",
+    "11": "news"
+   }
+  },
+  {
+   "name": "B4",
+   "style": "birthday-final-3-5-draws",
+   "picks": "H A H A D D H A H A H D A",
+   "played": true,
+   "note": "FINAL Fri 16 Oct ~11:45 EAT (user: final deep research, 7 columns incl. favourite and bookmakers' pick excluding SportPesa, 3-5 draws per slip): 11:00 consensus of Odibets, Paripesa, Stake (SportPesa excluded); half R23 tilt; all-correct aim; Frosinone and Toulouse locked; Trelleborg (Ruuska back)",
+   "reasons": {
+    "1": "late-move",
+    "4": "news",
+    "5": "draw-rule",
+    "6": "draw-rule",
+    "12": "draw-rule"
+   }
+  },
+  {
+   "name": "B5",
+   "style": "birthday-final-3-5-draws",
+   "picks": "H A H H A D H A H A D D A",
+   "played": true,
+   "note": "FINAL Fri 16 Oct ~11:45 EAT (user: final deep research, 7 columns incl. favourite and bookmakers' pick excluding SportPesa, 3-5 draws per slip): 11:00 consensus of Odibets, Paripesa, Stake (SportPesa excluded); half R23 tilt; all-correct aim; Frosinone and Toulouse locked; Nancy (late money to Nancy) + draws 6, 11, 12",
+   "reasons": {
+    "1": "late-move",
+    "4": "late-move",
+    "5": "late-move",
+    "6": "draw-rule",
+    "11": "draw-rule",
+    "12": "draw-rule"
+   }
+  }
+ ]
+}

@@ -35,6 +35,45 @@ class MatchMetadata(BaseModel):
 
 
 
+class FixtureForm(BaseModel):
+    """Recent form snapshot for one side of a fixture, sourced from public stats sites."""
+    results: List[str] = []
+    goals_for: Optional[int] = None
+    goals_against: Optional[int] = None
+    league_position: Optional[int] = None
+    points: Optional[int] = None
+    note: Optional[str] = None
+
+class FixtureAnalysis(BaseModel):
+    """Qualitative tactical read layered on top of the sourced data. Not a statistical model."""
+    tactical_read: str
+    prediction_lean: str
+    outcome_estimate: List[float] = []
+    outcome_pick: Optional[str] = None
+    confidence_note: Optional[str] = None
+
+class FixtureIntel(BaseModel):
+    """Pre-match intelligence for a single fixture, combining external site data with analysis."""
+    match_id: str
+    kickoff_date: str
+    kickoff_time: str
+    country: str
+    competition: str
+    home_team: str
+    away_team: str
+    home_form: FixtureForm = FixtureForm()
+    away_form: FixtureForm = FixtureForm()
+    h2h_summary: Optional[str] = None
+    key_notes: List[str] = []
+    sources: List[str] = []
+    confidence: str = "low"
+    analysis: Optional[FixtureAnalysis] = None
+    external_predictions: Dict[str, str] = {}
+    actual_result: Optional[str] = None
+    actual_score: Optional[str] = None
+
+
+
 @dataclass(slots=True)
 class BallData:
     x: float

@@ -1,0 +1,227 @@
+{
+ "slate_id": "2026-10-17",
+ "staked_ksh": 99,
+ "won_ksh": 0,
+ "notes": "SportPesa Mega Jackpot Pro card 204, Sat 17 - Sun 18 Oct 2026. User played ONE slip on Sun 18 Oct after games 1-2 had finished (G1 0:0 D, G2 3:2 H). Odds for games 3-17 are the SportPesa prices pasted Sun ~12:30 EAT (games 1-2: opening prices from the jackpots/active feed). Built quickly: SportPesa favourites (they scored 8/13 on 16 Oct) plus the user's minimum 3 draws on the cheapest-draw games (17 Burgos-Sabadell, draw 33% v 34%; 4 Slovacko-Brno; 9 Leeds-Man United). Lighter alternative offered: 4 H, 9 H. RESULTS (pasted 19 Oct): D H H A H H A H D A H H A H A A H (2 draws). Slip as placed (with known D H for games 1-2) = 10/17; games 3-17 = 8/15. No bonus (12/17 needed).",
+ "games": [
+  {
+   "n": 1,
+   "home": "Valencia CF",
+   "away": "Athletic Bilbao",
+   "odds": [
+    3.55,
+    3.45,
+    2.15
+   ],
+   "result": "D",
+   "score": "0:0"
+  },
+  {
+   "n": 2,
+   "home": "Minnesota United FC",
+   "away": "Saint Louis City SC",
+   "odds": [
+    2.34,
+    3.6,
+    2.48
+   ],
+   "result": "H",
+   "score": "3:2"
+  },
+  {
+   "n": 3,
+   "home": "Kasimpasa Istanbul",
+   "away": "Samsunspor",
+   "odds": [
+    2.38,
+    3.3,
+    2.9
+   ],
+   "result": "H",
+   "score": "4:1"
+  },
+  {
+   "n": 4,
+   "home": "1. FC Slovacko",
+   "away": "FC Zbrojovka Brno",
+   "odds": [
+    2.47,
+    3.2,
+    2.6
+   ],
+   "result": "A",
+   "score": "1:2"
+  },
+  {
+   "n": 5,
+   "home": "Dynamo Dresden",
+   "away": "1. FC Magdeburg",
+   "odds": [
+    2.6,
+    3.55,
+    2.48
+   ],
+   "result": "H",
+   "score": "2:0"
+  },
+  {
+   "n": 6,
+   "home": "Soenderjyske",
+   "away": "Silkeborg IF",
+   "odds": [
+    2.49,
+    3.6,
+    2.6
+   ],
+   "result": "H",
+   "score": "4:0"
+  },
+  {
+   "n": 7,
+   "home": "Sarpsborg 08",
+   "away": "Rosenborg BK",
+   "odds": [
+    2.32,
+    3.65,
+    2.65
+   ],
+   "result": "A",
+   "score": "0:3"
+  },
+  {
+   "n": 8,
+   "home": "Zaglebie Lubin",
+   "away": "Jagiellonia Bialystok",
+   "odds": [
+    2.55,
+    3.35,
+    2.43
+   ],
+   "result": "H",
+   "score": "1:0"
+  },
+  {
+   "n": 9,
+   "home": "Leeds United",
+   "away": "Manchester United",
+   "odds": [
+    2.55,
+    3.35,
+    2.7
+   ],
+   "result": "D",
+   "score": "1:1"
+  },
+  {
+   "n": 10,
+   "home": "Kocaelispor",
+   "away": "Goztepe Izmir",
+   "odds": [
+    2.8,
+    3.25,
+    2.47
+   ],
+   "result": "A",
+   "score": "1:2"
+  },
+  {
+   "n": 11,
+   "home": "FK Dinamo Moscow",
+   "away": "CSKA Moscow",
+   "odds": [
+    2.05,
+    3.45,
+    2.95
+   ],
+   "result": "H",
+   "score": "3:1"
+  },
+  {
+   "n": 12,
+   "home": "Vaalerenga IF",
+   "away": "SK Brann",
+   "odds": [
+    2.2,
+    3.85,
+    2.75
+   ],
+   "result": "H",
+   "score": "3:1"
+  },
+  {
+   "n": 13,
+   "home": "Sandefjord Fotball",
+   "away": "Lillestroem SK",
+   "odds": [
+    2.55,
+    3.55,
+    2.44
+   ],
+   "result": "A",
+   "score": "0:2"
+  },
+  {
+   "n": 14,
+   "home": "FC Uta Arad",
+   "away": "FC CFR 1907 Cluj",
+   "odds": [
+    2.1,
+    3.25,
+    3.05
+   ],
+   "result": "H",
+   "score": "1:0"
+  },
+  {
+   "n": 15,
+   "home": "Le Havre AC",
+   "away": "AJ Auxerre",
+   "odds": [
+    2.33,
+    3.5,
+    3.1
+   ],
+   "result": "A",
+   "score": "1:3"
+  },
+  {
+   "n": 16,
+   "home": "FK Jablonec",
+   "away": "FC Viktoria Plzen",
+   "odds": [
+    2.35,
+    3.3,
+    2.7
+   ],
+   "result": "A",
+   "score": "2:3"
+  },
+  {
+   "n": 17,
+   "home": "Burgos CF",
+   "away": "CE Sabadell FC",
+   "odds": [
+    2.85,
+    2.8,
+    2.7
+   ],
+   "result": "H",
+   "score": "1:0"
+  }
+ ],
+ "tipsters": [],
+ "slips": [
+  {
+   "name": "ONE",
+   "style": "user-draw-rule-3",
+   "picks": "- - H D A H H A D A H H A H H H D",
+   "played": true,
+   "note": "games 1-2 were already finished when the slip was placed (user entered D, H = the known results), so they are left out of the score here",
+   "reasons": {
+    "4": "draw-rule",
+    "9": "draw-rule",
+    "17": "draw-rule"
+   }
+  }
+ ]
+}

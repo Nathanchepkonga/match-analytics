@@ -1,0 +1,1057 @@
+[
+  {
+    "match_id": "2026-09-19_roma_inter",
+    "kickoff_date": "2026-09-19",
+    "kickoff_time": "19:00",
+    "country": "Italy",
+    "competition": "Serie A",
+    "home_team": "AS Roma",
+    "away_team": "Inter Milano",
+    "home_form": {
+      "results": [
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "goals_for": 10,
+      "goals_against": null,
+      "league_position": 1,
+      "points": 12,
+      "note": "Unbeaten in first 4 Serie A games; a reported +11 goal difference does not reconcile with the 10 goals scored figure (source discrepancy) - treat GD as unconfirmed."
+    },
+    "away_form": {
+      "results": [
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 2,
+      "points": 12,
+      "note": "Understat xG: ~2.78 for, ~1.07 against per game (best defensive xG in Serie A) - advanced stats, not actual goal counts."
+    },
+    "h2h_summary": "Last 5 meetings: Inter won 4 (5-2 Apr'26, 1-0 Apr'25, 1-0 Oct'24, 4-2 Feb'24), Roma won 1 (1-0 Oct'25). Inter have had the clear upper hand recently.",
+    "key_notes": [
+      "Roma: Wesley and Evan Ndicka reported back in training, though one source still lists both as doubts (conflicting).",
+      "Inter without Djed Spence and Hakan Calhanoglu (injured).",
+      "Both sides unbeaten and level on 12 points - genuine early-season Serie A summit clash at Stadio Olimpico."
+    ],
+    "sources": [
+      "Goal.com",
+      "Yahoo Sports",
+      "FotMob",
+      "footballwhispers.com",
+      "Sportskeeda",
+      "Understat.com",
+      "MakeYourStats"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Both sides arrive unbeaten and level on points, making this a genuine head-to-head for early Serie A bragging rights. Inter's better underlying defensive numbers and recent head-to-head dominance (4 wins in the last 5 meetings) give them a slight edge on paper, but Roma are unbeaten and scoring freely at home.",
+      "prediction_lean": "Slight edge to Inter",
+      "outcome_estimate": [
+        0.33,
+        0.29,
+        0.38
+      ],
+      "confidence_note": "Table positions and some injury reports conflicted across sources - treat exact figures as approximate.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Draw",
+    "actual_score": "2-2",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-19_stuttgart_dortmund",
+    "kickoff_date": "2026-09-19",
+    "kickoff_time": "19:30",
+    "country": "Germany",
+    "competition": "Bundesliga",
+    "home_team": "VfB Stuttgart",
+    "away_team": "Borussia Dortmund",
+    "home_form": {
+      "results": [
+        "L",
+        "W",
+        "L"
+      ],
+      "goals_for": 6,
+      "goals_against": 8,
+      "league_position": 14,
+      "points": 3,
+      "note": "Severe injury crisis under Sebastian Hoeness - up to 8 players potentially unavailable."
+    },
+    "away_form": {
+      "results": [
+        "W",
+        "W",
+        "W"
+      ],
+      "goals_for": 8,
+      "goals_against": 2,
+      "league_position": 2,
+      "points": 9,
+      "note": "5 straight wins in all competitions (16 goals) before this game; only loss this season was the DFL-Supercup vs Bayern."
+    },
+    "h2h_summary": "All-time: Dortmund lead 20W-10D-10L across 40 meetings (Dortmund 35 goals, Stuttgart 29). Recent-meeting trend conflicted across sources; exact last-5 scorelines not reliably confirmed.",
+    "key_notes": [
+      "Stuttgart missing Dan-Axel Zagadou long-term (hamstring), forcing an improvised back three.",
+      "Dortmund without Emre Can, Giannis Konstantelias, Filippo Mane and Justin Lerma (all injured)."
+    ],
+    "sources": [
+      "WhoScored",
+      "FotMob",
+      "khelnow.com",
+      "thehardtackle.com",
+      "bulinews.com",
+      "Sportskeeda",
+      "worldfootball.net",
+      "sportsdunia.com",
+      "bvbbuzz.com"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Dortmund arrive with the form, the goals, and a healthier squad list - three wins from three against Stuttgart's one win in three and a mounting injury list, plus a clear historical head-to-head edge. Stuttgart's route back into this likely depends on set pieces or a defensive discipline they haven't shown so far this season.",
+      "prediction_lean": "Clear edge to Dortmund",
+      "outcome_estimate": [
+        0.2,
+        0.24,
+        0.56
+      ],
+      "confidence_note": "Stuttgart's injury list and early tables are well corroborated; exact recent head-to-head scorelines were not reliably confirmed.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Away",
+    "actual_score": "0-1",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-19_angers_troyes",
+    "kickoff_date": "2026-09-19",
+    "kickoff_time": "21:45",
+    "country": "France",
+    "competition": "Ligue 1",
+    "home_team": "Angers SCO",
+    "away_team": "ESTAC Troyes",
+    "home_form": {
+      "results": [
+        "D",
+        "L",
+        "W",
+        "L"
+      ],
+      "goals_for": 4,
+      "goals_against": 5,
+      "league_position": 11,
+      "points": 4,
+      "note": "Seeking first Ligue 1 home point of the season under manager Stephane Gilli. Competition corrected to Ligue 1 (not Ligue 2 as originally assumed - Angers plays top flight)."
+    },
+    "away_form": {
+      "results": [
+        "L",
+        "L",
+        "W",
+        "D"
+      ],
+      "goals_for": 4,
+      "goals_against": 9,
+      "league_position": 12,
+      "points": 4,
+      "note": "Manager Stephane Dumont trying to avoid 3 straight league losses for the first time since 2023. Troyes were promoted to Ligue 1 last season."
+    },
+    "h2h_summary": "Angers hold a 6-match home unbeaten/winning run vs Troyes across all competitions; 4 of the last 5 meetings were decided by a single goal.",
+    "key_notes": [
+      "Angers: Haris Belkebla (leg) likely out.",
+      "Troyes: Yvann Titi (leg) likely out, Ismael Boura (leg) a doubt."
+    ],
+    "sources": [
+      "Wikipedia (2026-27 Ligue 1)",
+      "Sportsmole.co.uk",
+      "Yahoo Sports/OneFootball syndicated preview"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Both sides arrive level on 4 points with almost identical W1-D1-L2 records, though Angers have the psychological edge of a long unbeaten home run against this exact opponent. Troyes' leakier defense against Angers' modest home comforts tips this marginally toward the hosts.",
+      "prediction_lean": "Slight edge to Angers at home",
+      "outcome_estimate": [
+        0.38,
+        0.32,
+        0.3
+      ],
+      "confidence_note": "Form/table data cross-validated across Wikipedia and Sportsmole; treat the single-goal-margin H2H trend as a soft signal, not a hard rule.",
+      "outcome_pick": "Home"
+    },
+    "actual_result": "Home",
+    "actual_score": "2-0",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-19_lemans_lorient",
+    "kickoff_date": "2026-09-19",
+    "kickoff_time": "21:45",
+    "country": "France",
+    "competition": "Ligue 1",
+    "home_team": "Le Mans FC",
+    "away_team": "FC Lorient",
+    "home_form": {
+      "results": [
+        "D",
+        "L",
+        "D",
+        "D"
+      ],
+      "goals_for": 7,
+      "goals_against": 8,
+      "league_position": 14,
+      "points": 3,
+      "note": "Newly promoted (first Ligue 1 season since 2009-10); unbeaten at home so far this term despite conceding often (3rd-most goals conceded per match in the league). Competition corrected to Ligue 1 (not Ligue 2)."
+    },
+    "away_form": {
+      "results": [
+        "D",
+        "L",
+        "W",
+        "D"
+      ],
+      "goals_for": 4,
+      "goals_against": 4,
+      "league_position": 9,
+      "points": 5,
+      "note": "A 5-match unbeaten run away from home was reported by source but not fully cross-checked against the individual results listed here, which mix home and away fixtures."
+    },
+    "h2h_summary": "Lorient have won 5 of the last 6 meetings vs Le Mans across all competitions, including 4 straight away wins dating back to 2008.",
+    "key_notes": [
+      "Le Mans: Erwan Coles (fitness) out.",
+      "Lorient: Bandiougou Fadiga (hamstring), Mohamed Bamba (physical discomfort) - both doubts."
+    ],
+    "sources": [
+      "Wikipedia (2026-27 Ligue 1)",
+      "Sportsmole.co.uk",
+      "Yahoo Sports syndicated preview"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Lorient's healthier points total and a lopsided head-to-head history (5 wins in the last 6, including a run of away wins specifically against Le Mans) make them favourites here, even though Le Mans have been unbeaten at their own ground this season.",
+      "prediction_lean": "Edge to Lorient",
+      "outcome_estimate": [
+        0.3,
+        0.32,
+        0.38
+      ],
+      "confidence_note": "Table data cross-validated across two sources; the specific claim about zero away goals conceded by Lorient was not independently cross-checked.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Home",
+    "actual_score": "2-1",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_auxerre_brest",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "16:00",
+    "country": "France",
+    "competition": "Ligue 1",
+    "home_team": "AJ Auxerre",
+    "away_team": "Stade Brest 29",
+    "home_form": {
+      "results": [
+        "L",
+        "L",
+        "L",
+        "W"
+      ],
+      "goals_for": 5,
+      "goals_against": 11,
+      "league_position": 15,
+      "points": 3,
+      "note": "Worst defensive record in Ligue 1 after 4 games; manager Will Still got his first Ligue 1 win since his Lens stint (2024-25) with the Nice victory."
+    },
+    "away_form": {
+      "results": [
+        "D",
+        "D",
+        "W",
+        "L"
+      ],
+      "goals_for": 6,
+      "goals_against": 6,
+      "league_position": 7,
+      "points": 5,
+      "note": "Kamory Doumbia tied for Ligue 1 top scorer (4 goals)."
+    },
+    "h2h_summary": "Auxerre unbeaten in 3 of the last 4 home league meetings vs Brest, including back-to-back 3-0 home wins; Brest reportedly haven't won at this venue in the top flight since 2011.",
+    "key_notes": [
+      "Auxerre missing Assane Diousse (knee), Marvin Senaya (hamstring), Sekou Fofana (groin), Bryan Okoh (ACL) - a heavy injury list.",
+      "Brest: Brendan Chardonnet (calf), Mamady Diambou (ankle) out; Romain Cagnon and Mama Balde carrying knocks.",
+      "A claim that Brest's former coach died in mid-2026 with a managerial change could not be independently verified - treated as unconfirmed and excluded from this analysis."
+    ],
+    "sources": [
+      "Wikipedia (2026-27 Ligue 1)",
+      "Sportsmole.co.uk"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Auxerre's defense has been the division's leakiest through 4 games, but they found their first win of the campaign against Nice and have a genuinely strong home record specifically against Brest. Brest's more balanced form and a heavy Auxerre injury list roughly cancel that out.",
+      "prediction_lean": "Close game, marginal home edge to Auxerre on H2H",
+      "outcome_estimate": [
+        0.36,
+        0.32,
+        0.32
+      ],
+      "confidence_note": "Table/form data solid; one unverified claim about a Brest managerial change was explicitly excluded rather than reported as fact.",
+      "outcome_pick": "Home"
+    },
+    "actual_result": "Home",
+    "actual_score": "2-1",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_parma_genoa",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "16:00",
+    "country": "Italy",
+    "competition": "Serie A",
+    "home_team": "Parma Calcio",
+    "away_team": "Genoa CFC",
+    "home_form": {
+      "results": [
+        "L",
+        "D",
+        "L",
+        "L"
+      ],
+      "goals_for": 2,
+      "goals_against": null,
+      "league_position": 17,
+      "points": 1,
+      "note": "Joint-worst attack in Serie A (2 goals in 4 league games); no league win yet this season; most recent result a 2-1 loss to Como."
+    },
+    "away_form": {
+      "results": [
+        "L",
+        "L",
+        "L",
+        "D"
+      ],
+      "goals_for": 2,
+      "goals_against": null,
+      "league_position": 20,
+      "points": 0,
+      "note": "Source figures conflict slightly (a draw reported but 0 total points) - treat position/points as approximate. Joint-worst attack in Serie A (2 goals in 4 games)."
+    },
+    "h2h_summary": "Genoa lead the recent series - Parma have only 1 win in their last 7 meetings (3 draws, 3 Genoa wins); last season's two meetings both finished 0-0.",
+    "key_notes": [
+      "Early relegation six-pointer: both sides are winless in the league so far this season.",
+      "Genoa: Johan Vasquez suspended; Elias Havel (ankle) and Lorenzo Venturino (knee) injured.",
+      "Parma: Ousmane Diallo a doubt; Hans Nicolussi Caviglia out (thigh)."
+    ],
+    "sources": [
+      "Sports Mole",
+      "Yahoo Sports",
+      "Sportskeeda",
+      "footballwhispers.com",
+      "sportsgambler.com",
+      "sportsdunia.com"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Two of Serie A's out-of-form, joint-lowest-scoring sides meet in what's already being billed as an early relegation six-pointer. Genoa's slightly better recent head-to-head record and Parma's own injury list nudge this fractionally Genoa's way, but with both attacks blunted, a low-scoring game looks more likely than a clear takeover by either side.",
+      "prediction_lean": "Marginal edge to Genoa, low-scoring game likely",
+      "outcome_estimate": [
+        0.3,
+        0.34,
+        0.36
+      ],
+      "confidence_note": "Points/position figures had minor conflicts across sources; treat as directionally correct rather than exact.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Home",
+    "actual_score": "2-1",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_arezzo_sudtirol",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "16:00",
+    "country": "Italy",
+    "competition": "Serie B",
+    "home_team": "SS Arezzo",
+    "away_team": "FC Sudtirol Bolzano",
+    "home_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "Conflicting snapshots across sources - one shows 3 pts from 2 games (GF4-GA4), another 6 pts from 4 games (including a win over Empoli). Treat as approximate; confirm closer to kickoff."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": 8,
+      "note": "Unbeaten through 4 matches (8 points) - among the league's form teams."
+    },
+    "h2h_summary": "Sudtirol have won all 4 previous meetings (Arezzo 0W-0D-4L), by a combined 12-4 goal aggregate. First meeting 2014-15 (4-3 Sudtirol); further wins came during Arezzo's 2020-21 relegation to Serie D. Described as Arezzo's historical bogey team.",
+    "key_notes": [
+      "Kickoff time conflict: sources give ~15:00 local vs the 16:00 used here - confirm before matchday.",
+      "Referee: Marco Di Loreto. Broadcast: DAZN. Arezzo coached by Cristian Bucchi."
+    ],
+    "sources": [
+      "legab.it",
+      "amarantomagazine.it",
+      "calciomercato.com",
+      "trivenetogoal.it",
+      "pronosticisportivi.it"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Sudtirol's unbeaten start and a flawless historical head-to-head record against Arezzo make them clear favourites on paper, especially with Arezzo's own current-form numbers murky across sources. Arezzo's best hope is home advantage and Sudtirol easing off after a strong start.",
+      "prediction_lean": "Clear edge to Sudtirol",
+      "outcome_estimate": [
+        0.24,
+        0.28,
+        0.48
+      ],
+      "confidence_note": "Arezzo's current-season form figures conflicted across sources; Sudtirol's unbeaten record and historical H2H dominance are well corroborated.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Away",
+    "actual_score": "1-4",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_erzurumspor_samsunspor",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "17:00",
+    "country": "Turkey",
+    "competition": "Super Lig",
+    "home_team": "Erzurumspor FK",
+    "away_team": "Samsunspor",
+    "home_form": {
+      "results": [
+        "L",
+        "L",
+        "L",
+        "D",
+        "W"
+      ],
+      "goals_for": 2,
+      "goals_against": 11,
+      "league_position": null,
+      "points": 4,
+      "note": "Order of results within the last 5 not confirmed - counts only (1W-1D-3L)."
+    },
+    "away_form": {
+      "results": [
+        "L",
+        "L",
+        "L",
+        "D",
+        "W"
+      ],
+      "goals_for": 6,
+      "goals_against": 11,
+      "league_position": null,
+      "points": 4,
+      "note": "Order of results within the last 5 not confirmed - counts only (1W-1D-3L)."
+    },
+    "h2h_summary": "First-ever meeting at Super Lig level. In the second tier (TFF 1. Lig) they met 6 times: Samsunspor won 3, drew 3, Erzurumspor 0 wins.",
+    "key_notes": [
+      "Both sides in poor early-season form, level on 4 points.",
+      "Broadcast: Bein Sports 2."
+    ],
+    "sources": [
+      "mynet.com",
+      "sporekrani.com",
+      "sabah.com.tr",
+      "gazetegercek.com.tr",
+      "milliyet.com.tr",
+      "Wikipedia"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Two sides with nearly identical rough starts to the season meet for the first time at this level, with history offering a mild edge to Samsunspor from their lower-division meetings. Given the shared defensive issues on both sides, a game with goals at both ends looks likely.",
+      "prediction_lean": "Slight historical edge to Samsunspor, otherwise close",
+      "outcome_estimate": [
+        0.34,
+        0.28,
+        0.38
+      ],
+      "confidence_note": "Exact result sequencing and league table positions weren't confirmed - only aggregate points/goal counts were found.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Home",
+    "actual_score": "1-0",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_basel_stgallen",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "17:30",
+    "country": "Switzerland",
+    "competition": "Swiss Super League",
+    "home_team": "FC Basel 1893",
+    "away_team": "FC St. Gallen 1879",
+    "home_form": {
+      "results": [
+        "L",
+        "L",
+        "L",
+        "D",
+        "W"
+      ],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "Form figures may be stale (dated snapshot, not confirmed current to September); under manager Stephan Lichtsteiner; conceding at ~1.7 goals/game over last 10 matches."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "No current-season (2026-27) form data found; historical context only (finished 2nd in 2025-26 with 55 points)."
+    },
+    "h2h_summary": "Not found - H2H source pages exist (Sky Sports, Flashscore) but content wasn't retrievable via search.",
+    "key_notes": [
+      "Kickoff time genuinely unclear across sources (14:30 UTC / ~16:30 CEST vs 17:30 local used here) - verify before publishing.",
+      "Basel reported to be under defensive strain recently."
+    ],
+    "sources": [
+      "flashscore.com",
+      "skysports.com",
+      "foxsports.com",
+      "Wikipedia"
+    ],
+    "confidence": "low",
+    "analysis": {
+      "tactical_read": "Data quality here is genuinely thin - Basel's poor recent form (just 1 win in 5) is the clearest signal available, but even that may be a stale snapshot, and current-season form for St. Gallen wasn't found at all. Treat this lean as a low-confidence placeholder.",
+      "prediction_lean": "Insufficient reliable data for a real lean - flagged low-confidence",
+      "outcome_estimate": [
+        0.35,
+        0.3,
+        0.35
+      ],
+      "confidence_note": "This is the weakest-data fixture in the set - recommend re-checking Sofascore/FotMob directly close to kickoff before relying on this.",
+      "outcome_pick": "Home"
+    },
+    "actual_result": "Away",
+    "actual_score": "1-3",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_mjallby_gais",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "17:30",
+    "country": "Sweden",
+    "competition": "Allsvenskan",
+    "home_team": "Mjallby AIF",
+    "away_team": "GAIS",
+    "home_form": {
+      "results": [
+        "L",
+        "L",
+        "L",
+        "D"
+      ],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 12,
+      "points": 21,
+      "note": "Snapped a 3-game losing streak with a 1-1 draw vs Hacken."
+    },
+    "away_form": {
+      "results": [
+        "W",
+        "D",
+        "L",
+        "L",
+        "L"
+      ],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 10,
+      "points": 27,
+      "note": "Most recent result: 2-0 loss to Djurgarden. Last 5: 1W-1D-3L."
+    },
+    "h2h_summary": "14 previous meetings: Mjallby 6 wins, GAIS 4 wins, 4 draws; aggregate goals 20-16 to Mjallby. The earlier meeting this season finished 0-0.",
+    "key_notes": [
+      "Venue: Strandvallen.",
+      "GAIS sit above Mjallby in the table despite worse recent form; Mjallby need points to climb from lower mid-table."
+    ],
+    "sources": [
+      "fotmob.com",
+      "fifa.com",
+      "footystats.org",
+      "pronosticisportivi.it",
+      "aiscore.com"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "GAIS hold the better league position and a slight historical H2H edge, but arrive on worse recent form (a heavy home loss to Djurgarden) than Mjallby, who just snapped a 3-game losing skid. With the earlier meeting this season goalless, a tight, low-scoring affair looks likely again.",
+      "prediction_lean": "Roughly even, slight home edge to Mjallby on momentum",
+      "outcome_estimate": [
+        0.36,
+        0.32,
+        0.32
+      ],
+      "confidence_note": "Form and standings are well sourced (FotMob/FIFA match centre); H2H aggregate is solid.",
+      "outcome_pick": "Home"
+    },
+    "actual_result": "Away",
+    "actual_score": "0-3",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_mantova_pisa",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "18:15",
+    "country": "Italy",
+    "competition": "Serie B",
+    "home_team": "Mantova 1911",
+    "away_team": "Pisa SC",
+    "home_form": {
+      "results": [
+        "W",
+        "D",
+        "W",
+        "W"
+      ],
+      "goals_for": 8,
+      "goals_against": 3,
+      "league_position": 1,
+      "points": 10,
+      "note": "Most recent result: 2-0 win over Sampdoria."
+    },
+    "away_form": {
+      "results": [
+        "W",
+        "W",
+        "L",
+        "L"
+      ],
+      "goals_for": 6,
+      "goals_against": 6,
+      "league_position": null,
+      "points": 6,
+      "note": "Two straight losses arriving into this game (4-1 league loss to Virtus Entella, then 3-0 Coppa Italia loss to Fiorentina)."
+    },
+    "h2h_summary": "Figures conflict across sources - one snippet cites 13 total meetings (Mantova 9W-2D-2L); another breaks it down by venue: 9 meetings at Pisa (Pisa 6W-3D-0L, goals 17-4 Pisa), 12 at Mantova (Mantova 8W-2L-2D). Treat directionally only: Pisa historically dominant at their own ground, Mantova strong at home.",
+    "key_notes": [
+      "Mantova enter as Serie B's form team, sitting top of the table.",
+      "Pisa arrive out of form across two competitions.",
+      "Kickoff time conflict: sources show 17:15 local vs 18:15 used here - confirm before matchday."
+    ],
+    "sources": [
+      "Sky Sport",
+      "pianetaserieb.it",
+      "tifomantova.it",
+      "calciopisa.it",
+      "pisasportingclub.com"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Mantova's league-topping form and strong home H2H record make them clear favourites here, further boosted by Pisa's rough patch across two competitions. This looks like one of the more one-sided fixtures on the card.",
+      "prediction_lean": "Clear edge to Mantova",
+      "outcome_estimate": [
+        0.48,
+        0.28,
+        0.24
+      ],
+      "confidence_note": "Current-season form/standings are solid; historical head-to-head totals conflicted across sources and should be read as directional only.",
+      "outcome_pick": "Home"
+    },
+    "actual_result": "Draw",
+    "actual_score": "2-2",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_schalke_elversberg",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "18:30",
+    "country": "Germany",
+    "competition": "Bundesliga",
+    "home_team": "Schalke 04",
+    "away_team": "SV 07 Elversberg",
+    "home_form": {
+      "results": [
+        "W",
+        "D",
+        "L"
+      ],
+      "goals_for": 3,
+      "goals_against": 4,
+      "league_position": 11,
+      "points": 4,
+      "note": "Newly promoted to the Bundesliga for 2026-27. Exact sequence/opponents of recent results conflicted slightly across sources (a 0-0 draw with Bayern Munich was mentioned). Competition corrected to Bundesliga (not 2. Bundesliga)."
+    },
+    "away_form": {
+      "results": [
+        "W",
+        "W",
+        "L"
+      ],
+      "goals_for": 8,
+      "goals_against": 7,
+      "league_position": 6,
+      "points": 6,
+      "note": "Also newly promoted, playing their first-ever top-flight season; described by one source as 'one of the surprises of the season' after a strong start."
+    },
+    "h2h_summary": "6 all-time meetings (all in 2. Bundesliga, 2023-2026): Schalke won 3, Elversberg 2, 1 draw (Schalke 10 goals, Elversberg 7). This will be their first-ever meeting at Bundesliga (top-flight) level.",
+    "key_notes": [
+      "Both clubs newly promoted to the Bundesliga - a rare all-promoted top-flight fixture.",
+      "Elversberg's Francis Onyeka a doubt after a knock.",
+      "Specific injury names and the Schalke manager's identity were inconsistently reported across sources - not treated as fully confirmed."
+    ],
+    "sources": [
+      "Wikipedia (2026-27 Bundesliga)",
+      "Sportsmole.co.uk",
+      "getfootballnewsgermany.com"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Elversberg arrive with the better points total and goal difference for two newly-promoted sides finding their feet at this level, plus a slight head-to-head edge from their second-tier meetings. Schalke's home advantage at the Veltins-Arena is the main factor working against a genuine underdog story here.",
+      "prediction_lean": "Slight edge to Elversberg",
+      "outcome_estimate": [
+        0.34,
+        0.3,
+        0.36
+      ],
+      "confidence_note": "Table position/points cross-validated across two sources; specific injury/manager details were inconsistent and not treated as fully confirmed.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Draw",
+    "actual_score": "0-0",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_viborg_nordsjaelland",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "19:00",
+    "country": "Denmark",
+    "competition": "Danish Superliga",
+    "home_team": "Viborg FF",
+    "away_team": "FC Nordsjaelland",
+    "home_form": {
+      "results": [
+        "D",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "goals_for": 9,
+      "goals_against": 5,
+      "league_position": 4,
+      "points": 13,
+      "note": "GF9-GA5 reflects the last-5-game stretch, not full-season totals. Points/position are full-season (8 matches, 4W-1D-3L)."
+    },
+    "away_form": {
+      "results": [],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": null,
+      "note": "Standings figure found (5th, 4 pts / 2 matches) looks like a stale cached snapshot and is excluded. More current-seeming form: 3 wins in last 5 (GF10-GA2), including a 1-1 draw vs AC Horsens and a 1-0 win over Randers FC - but exact position/points not reliably confirmed."
+    },
+    "h2h_summary": "Not found in available search results.",
+    "key_notes": [
+      "Standings data quality was poor for this fixture - recommend re-checking Sofascore/FotMob directly closer to kickoff.",
+      "Kickoff time conflicts across sources (16:00 UTC / ~18:00 CEST vs 19:00 local used here)."
+    ],
+    "sources": [
+      "sofascore.com",
+      "fotmob.com",
+      "oddslot.com",
+      "apwin.com"
+    ],
+    "confidence": "low",
+    "analysis": {
+      "tactical_read": "Viborg's form is reasonably well documented and solid, while Nordsjaelland's exact current standing is murkier in the available data, though their attacking output suggests decent scoring form of their own. Without reliable head-to-head history to lean on, this reads as competitive.",
+      "prediction_lean": "Slight edge to Viborg, data quality low",
+      "outcome_estimate": [
+        0.36,
+        0.3,
+        0.34
+      ],
+      "confidence_note": "Nordsjaelland's league position/points could not be reliably confirmed - recommend a fresh check before matchday.",
+      "outcome_pick": "Home"
+    },
+    "actual_result": "Home",
+    "actual_score": "4-1",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_deportivo_betis",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "19:30",
+    "country": "Spain",
+    "competition": "La Liga",
+    "home_team": "RC Deportivo de A Coruna",
+    "away_team": "Real Betis Seville",
+    "home_form": {
+      "results": [
+        "D",
+        "W",
+        "W",
+        "D",
+        "L"
+      ],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 6,
+      "points": 8,
+      "note": "Verified as a genuine La Liga fixture - Deportivo were promoted from Segunda Division for 2026-27, ending an 8-year top-flight absence. First defeat of the season (0-1 to Sevilla) came into this game; earlier results included wins over Villarreal and Valencia. Points/round-number conflicted slightly across sources."
+    },
+    "away_form": {
+      "results": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "goals_for": null,
+      "goals_against": 6,
+      "league_position": 5,
+      "points": 9,
+      "note": "Fewest goals conceded in La Liga (6) prior to this round; a run of 4 straight wins across competitions ended with a 2-5 loss to Levante."
+    },
+    "h2h_summary": "Deportivo have not beaten Betis in La Liga since September 2015. Longer history: Betis 4 wins, Deportivo 3, 4 draws.",
+    "key_notes": [
+      "Deportivo: Aubameyang expected to start; Noe Carrillo a doubt; Angelino absent.",
+      "Betis: Isco to start in the '10' role; Aitor Ruibal out (meniscus), Ismael Barea out long-term (ACL, back ~late December), Diego Llorente targeting a return but unlikely to feature.",
+      "Deportivo newly promoted after 8 years outside La Liga - a historic home occasion."
+    ],
+    "sources": [
+      "FotMob",
+      "Sports Mole",
+      "Goal.com",
+      "Sportskeeda",
+      "footballwhispers.com",
+      "football-espana.net",
+      "Yahoo Sports"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Deportivo's promotion-season form has actually been solid on the whole, but their record against this exact opponent is bleak - no win over Betis in La Liga for over a decade. Betis arrive with the division's best defensive numbers, undermined slightly by a heavy loss to Levante most recently. Betis's quality and H2H dominance make them favourites, but Deportivo's rare top-flight home occasion is a real factor.",
+      "prediction_lean": "Betis favoured, but Deportivo competitive at home",
+      "outcome_estimate": [
+        0.27,
+        0.28,
+        0.45
+      ],
+      "confidence_note": "Table positions and exact points for both sides conflicted across sources (even the round number was unclear) - treat as directionally indicative.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Draw",
+    "actual_score": "1-1",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_goztepe_rizespor",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "20:00",
+    "country": "Turkey",
+    "competition": "Super Lig",
+    "home_team": "Goztepe Izmir",
+    "away_team": "Caykur Rizespor",
+    "home_form": {
+      "results": [
+        "D",
+        "L",
+        "L",
+        "D",
+        "L"
+      ],
+      "goals_for": 9,
+      "goals_against": 13,
+      "league_position": null,
+      "points": 2,
+      "note": "Real relegation-form trouble; top scorer Juan (4 goals), assist leader Janderson."
+    },
+    "away_form": {
+      "results": [
+        "W",
+        "W",
+        "W",
+        "L",
+        "L"
+      ],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": null,
+      "points": 9,
+      "note": "Goal tallies for the last-5 stretch conflicted across sources (10-7 vs 5-4) - omitted pending confirmation; the win/loss record (3W-2L) was consistent. Top scorer Emrecan Bulut (2 goals)."
+    },
+    "h2h_summary": "Not found in available search results.",
+    "key_notes": [
+      "One source frames it as 'Rizespor 7 points ahead of Goztepe'.",
+      "Broadcast: Bein Sports 1."
+    ],
+    "sources": [
+      "mynet.com",
+      "sporkolik.net",
+      "sporekrani.com",
+      "sabah.com.tr",
+      "goztepe.org.tr",
+      "sahadan.com"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Goztepe's numbers are genuinely alarming - 2 points, a leaky defense, and real relegation form - against a Rizespor side that, while not spectacular, is comfortably the better-functioning team right now with a positive recent win-loss record.",
+      "prediction_lean": "Clear edge to Rizespor",
+      "outcome_estimate": [
+        0.26,
+        0.28,
+        0.46
+      ],
+      "confidence_note": "Win/loss record for Rizespor is consistent across sources; exact goal tallies conflicted and were omitted rather than guessed.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Draw",
+    "actual_score": "2-2",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_valencia_realsociedad",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "22:00",
+    "country": "Spain",
+    "competition": "La Liga",
+    "home_team": "Valencia CF",
+    "away_team": "Real Sociedad San Sebastian",
+    "home_form": {
+      "results": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "D",
+        "W"
+      ],
+      "goals_for": 2,
+      "goals_against": null,
+      "league_position": 18,
+      "points": 4,
+      "note": "Manager Carlos Corberan sacked 13 Sep 2026 after 4 straight defeats; interim boss Oscar Sanchez (promoted from Valencia B) then oversaw the first win of the season (1-0 vs Alaves)."
+    },
+    "away_form": {
+      "results": [
+        "L",
+        "L"
+      ],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 13,
+      "points": 7,
+      "note": "Only the last two results were confirmed (partial form): defeats to Atletico Madrid (La Liga) and Bournemouth (competition unclear, possibly Europa League)."
+    },
+    "h2h_summary": "Last 5 La Liga meetings: 2 Valencia wins, 2 Real Sociedad wins, 1 draw. Most recent: Valencia won 4-3 away at Real Sociedad (17 May 2026); before that, a 1-1 draw at Mestalla (Aug 2025). All-time: Valencia lead 68-53 (41 draws) across 162 meetings.",
+    "key_notes": [
+      "Valencia in real turmoil: manager sacked mid-September despite a new contract signed 3 months earlier.",
+      "Valencia missing Mouctar Diakhaby, Cesar Tarrega, Jose Copete, Sergi Canos, Diego Lopez; Luis Rioja out (ankle, ~early Oct return); Umar Sadiq out with a serious hamstring injury (~early Nov return).",
+      "Real Sociedad: Alvaro Odriozola out long-term (ACL); Igor Zubeldia a doubt (expected clear late Sept)."
+    ],
+    "sources": [
+      "Tribuna.com",
+      "Sports Mole",
+      "Yahoo Sports",
+      "Sky Sports",
+      "footballwhispers.com",
+      "footystats.org",
+      "thescore.com"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "Valencia are in genuine crisis mode - bottom of the table, a sacked manager, and an injury list stripping out most attacking options - but arrive off their first win of the season with a home crowd potentially lifted by the change. Real Sociedad are unconvincing themselves on a two-game losing run, but have more overall quality and a healthier squad.",
+      "prediction_lean": "Close game, slight lean to Real Sociedad on quality",
+      "outcome_estimate": [
+        0.32,
+        0.3,
+        0.38
+      ],
+      "confidence_note": "Both sides' recent form/injuries are well documented; Real Sociedad's exact league position varied 12th-13th across sources, and Valencia's bottom-of-table status is well corroborated.",
+      "outcome_pick": "Away"
+    },
+    "actual_result": "Away",
+    "actual_score": "2-3",
+    "external_predictions": {}
+  },
+  {
+    "match_id": "2026-09-20_porto_benfica",
+    "kickoff_date": "2026-09-20",
+    "kickoff_time": "22:30",
+    "country": "Portugal",
+    "competition": "Primeira Liga",
+    "home_team": "FC Porto",
+    "away_team": "SL Benfica",
+    "home_form": {
+      "results": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "goals_for": null,
+      "goals_against": 2,
+      "league_position": 1,
+      "points": 18,
+      "note": "Perfect start, won all 6 league matches; best defensive record in the division (2 conceded). Points figure is estimated from 6 wins, not independently confirmed by a single source."
+    },
+    "away_form": {
+      "results": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W",
+        "D"
+      ],
+      "goals_for": null,
+      "goals_against": null,
+      "league_position": 2,
+      "points": 16,
+      "note": "Won 5 of first 6 league games; part of a 55-game unbeaten run across competitions since Jan 2025 (chasing the club's all-time record of 56, set 1976-79). Points figure estimated."
+    },
+    "h2h_summary": "Last 3 meetings: 2-2 draw (8 Mar 2026, league), Porto won 1-0 (14 Jan 2026, Taca de Portugal), 0-0 draw (5 Oct 2025, league). All-time: Porto lead 103-93 (64 draws) across 260 meetings.",
+    "key_notes": [
+      "Porto: Samu Aghehowa out long-term (knee, since February); Nehuen Perez ruled out (thigh); Joao Costa and Zaidu limited to gym work - up to 8 players on the medical list.",
+      "Benfica: no specific injury list confirmed for this exact fixture.",
+      "'O Classico': Porto's perfect record vs Benfica's historic unbeaten streak."
+    ],
+    "sources": [
+      "ESPN",
+      "Sports Mole",
+      "FotMob",
+      "theScore",
+      "footballwhispers.com",
+      "365scores.com",
+      "OneFootball"
+    ],
+    "confidence": "medium",
+    "analysis": {
+      "tactical_read": "The division's two form teams collide: Porto perfect and miserly at the back, Benfica riding an extraordinary unbeaten run and playing some of the best football in Europe right now. Porto's home advantage and defensive solidity make them slight favourites, but Benfica's recent head-to-head record (unbeaten in the last 3) makes backing against them risky.",
+      "prediction_lean": "Marginal Porto edge at home, but a draw would not surprise",
+      "outcome_estimate": [
+        0.38,
+        0.3,
+        0.32
+      ],
+      "confidence_note": "Exact points totals for both sides are estimates derived from win/draw counts, not independently confirmed by a single source.",
+      "outcome_pick": "Home"
+    },
+    "actual_result": "Home",
+    "actual_score": "3-1",
+    "external_predictions": {}
+  }
+]

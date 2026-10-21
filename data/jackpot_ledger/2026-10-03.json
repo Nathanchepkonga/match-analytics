@@ -1,0 +1,40 @@
+{
+  "slate_id": "2026-10-03",
+  "notes": "SportPesa 17-game jackpot. Odds are the SportPesa prices pasted before kickoff. S1 = favourites; S2-S6 change at most 3 near-even games each. S6 includes the pre-kickoff update (game 4 Draw, game 6 Home).",
+  "games": [
+    {"n": 1, "home": "Queen of the South", "away": "Cove Rangers", "odds": [2.70, 3.40, 2.23], "result": "H"},
+    {"n": 2, "home": "Elgin City", "away": "Clyde", "odds": [2.35, 3.40, 2.50], "result": "H"},
+    {"n": 3, "home": "Reading", "away": "Bradford City", "odds": [2.07, 3.40, 3.30], "result": "D"},
+    {"n": 4, "home": "Crewe Alexandra", "away": "Bristol Rovers", "odds": [2.70, 3.25, 2.35], "result": "H"},
+    {"n": 5, "home": "Exeter City", "away": "Rotherham United", "odds": [2.37, 3.25, 2.70], "result": "H"},
+    {"n": 6, "home": "Rochdale", "away": "Swindon Town", "odds": [2.18, 3.45, 2.85], "result": "H"},
+    {"n": 7, "home": "IFK Lidingo", "away": "Bollstanas SK", "odds": [2.32, 3.50, 2.55], "result": "A"},
+    {"n": 8, "home": "Cadiz", "away": "Leganes", "odds": [2.70, 3.10, 2.60], "result": "H"},
+    {"n": 9, "home": "Pro Vercelli", "away": "Carpi", "odds": [2.09, 3.30, 3.00], "result": "H"},
+    {"n": 10, "home": "FC Fleury 91", "away": "SM Caen", "odds": [2.41, 3.35, 2.46], "result": "H"},
+    {"n": 11, "home": "CA San Miguel", "away": "Mitre", "odds": [2.20, 2.80, 3.45], "result": "A"},
+    {"n": 12, "home": "Newell's Old Boys", "away": "CA Lanus", "odds": [2.60, 2.80, 2.70], "result": "D"},
+    {"n": 13, "home": "FC Tulsa", "away": "Sacramento Republic", "odds": [2.65, 3.00, 2.45], "result": "D"},
+    {"n": 14, "home": "Tegevajaro Miyazaki", "away": "RB Omiya Ardija", "odds": [2.49, 3.30, 2.44], "result": "D"},
+    {"n": 15, "home": "Veles Moscow", "away": "Volga Ulyanovsk", "odds": [2.26, 3.15, 2.80], "result": "A"},
+    {"n": 16, "home": "Real Sociedad B", "away": "Granada", "odds": [2.50, 3.20, 2.70], "result": "A"},
+    {"n": 17, "home": "VVV Venlo", "away": "Roda JC", "odds": [2.32, 3.60, 2.55], "result": "H"}
+  ],
+  "tipsters": [
+    {"name": "Sokapedia", "correct": 7, "games": 17, "doubles": 0, "checked": "2026-10-06", "note": "1X2 column. Its separate double-chance column on all 17 games (131,072 combinations) scored 13/17."},
+    {"name": "AmazingStakes / AccurateStakes / Pitch Predictions", "correct": 6, "games": 16, "doubles": 0, "checked": "2026-10-06", "note": "Identical picks on all three sites; game 15 excluded because they listed the wrong fixture."},
+    {"name": "Chambuabet", "correct": 6, "games": 17, "doubles": 0, "checked": "2026-10-06"},
+    {"name": "GoalVertex", "correct": 4, "games": 15, "doubles": 0, "checked": "2026-10-06", "note": "Match-card picks; its own summary list scored 5/15 and disagrees with the cards on 8 games."},
+    {"name": "AdiBet", "correct": 6, "games": 17, "doubles": 6, "checked": "2026-10-06", "note": "singles 4/11, double chances 2/6."},
+    {"name": "Jackpot Kenya", "correct": 7, "games": 16, "doubles": null, "checked": "2026-10-06", "note": "Game 17 pick garbled, excluded. Double chances not recorded."},
+    {"name": "Bantu Predictions", "correct": 7, "games": 10, "doubles": 4, "checked": "2026-10-06", "note": "Games 1-10 only; 11-17 locked behind paid VIP."}
+  ],
+  "slips": [
+    {"name": "S1", "style": "favourites", "picks": "A H H A H H H A H H H H A A H H H"},
+    {"name": "S2", "style": "near-even-tweaks", "picks": "A H H A H H H H H H H A A H H H H"},
+    {"name": "S3", "style": "near-even-tweaks", "picks": "A A H A H H H A H A H H H A H H H"},
+    {"name": "S4", "style": "near-even-tweaks", "picks": "A H H A H H A A H H H H A A H A A"},
+    {"name": "S5", "style": "near-even-tweaks", "picks": "A H H H A H H A H H H D A A H H H"},
+    {"name": "S6", "style": "near-even-tweaks", "picks": "H H H D H H H A H H H H A A A H H"}
+  ]
+}
