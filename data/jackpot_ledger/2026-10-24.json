@@ -766,6 +766,53 @@
     "14": "draw-rule",
     "17": "draw-rule"
    }
+  },
+  {
+   "name": "F15-A",
+   "style": "15of15-price-led-draws",
+   "picks": "A A H A A H - H H H A A A A H - H",
+   "played": false,
+   "reasons": {},
+   "note": "Draft Wed 21 Oct: price-led draw rule (no draw quota; draws only where the optimiser, on tilted consensus prices, finds them worth more than the favourite or the other side). Four slips together: P(10+/15) 9.0% (user 4-5 draw rule: 6.5%)."
+  },
+  {
+   "name": "F15-B",
+   "style": "15of15-price-led-draws",
+   "picks": "A H H A H H - H H H A A H A A - D",
+   "played": false,
+   "reasons": {
+    "2": "optimiser",
+    "5": "optimiser",
+    "13": "optimiser",
+    "15": "optimiser",
+    "17": "optimiser"
+   },
+   "note": "Draft Wed 21 Oct: price-led draw rule (no draw quota; draws only where the optimiser, on tilted consensus prices, finds them worth more than the favourite or the other side). Four slips together: P(10+/15) 9.0% (user 4-5 draw rule: 6.5%)."
+  },
+  {
+   "name": "F15-C",
+   "style": "15of15-price-led-draws",
+   "picks": "A A H A A A - H H H A A H H H - A",
+   "played": false,
+   "reasons": {
+    "6": "optimiser",
+    "13": "optimiser",
+    "14": "optimiser",
+    "17": "optimiser"
+   },
+   "note": "Draft Wed 21 Oct: price-led draw rule (no draw quota; draws only where the optimiser, on tilted consensus prices, finds them worth more than the favourite or the other side). Four slips together: P(10+/15) 9.0% (user 4-5 draw rule: 6.5%)."
+  },
+  {
+   "name": "F15-D",
+   "style": "15of15-price-led-draws",
+   "picks": "A H H A A H - H H A A A A D H - H",
+   "played": false,
+   "reasons": {
+    "2": "optimiser",
+    "10": "optimiser",
+    "14": "optimiser"
+   },
+   "note": "Draft Wed 21 Oct: price-led draw rule (no draw quota; draws only where the optimiser, on tilted consensus prices, finds them worth more than the favourite or the other side). Four slips together: P(10+/15) 9.0% (user 4-5 draw rule: 6.5%)."
   }
  ]
 }
