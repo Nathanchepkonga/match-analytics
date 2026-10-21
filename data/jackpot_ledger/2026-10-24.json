@@ -703,6 +703,18 @@
    "picks": "A A H A A H - H H H A A A A H - H",
    "played": false,
    "note": "Draft Wed 21 Oct: 15/15 category (drop games 7 Celta-Betis and 16 AEL-Aris, the two closest), multi-book consensus odds (Odibets/Paripesa/Stake, no SportPesa) with sportpesa_tilt; optimiser with 1 slip returns the favourites slip. P(bonus 10+/15)=3.8%, P(15/15)=1.4e-6. Re-check odds and line-ups on match day before placing."
+  },
+  {
+   "name": "COUNTER-15",
+   "style": "lean-15of15-counter",
+   "picks": "A H H A H H - H H H A A H A H - H",
+   "played": false,
+   "note": "Draft Wed 21 Oct: counter to ONE-15. Same 15 games; flips games 2, 5, 13 to the home side (the three closest favourites). Joint chance either slip gets 10+/15 = 5.7% (ONE-15 alone 3.8%); if ONE-15 lands on 8-9 (19% chance), this slip reaches 10+ about 7.9% of the time.",
+   "reasons": {
+    "2": "optimiser",
+    "5": "optimiser",
+    "13": "optimiser"
+   }
   }
  ]
 }
