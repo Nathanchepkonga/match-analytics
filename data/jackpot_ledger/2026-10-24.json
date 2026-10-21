@@ -813,6 +813,52 @@
     "14": "optimiser"
    },
    "note": "Draft Wed 21 Oct: price-led draw rule (no draw quota; draws only where the optimiser, on tilted consensus prices, finds them worth more than the favourite or the other side). Four slips together: P(10+/15) 9.0% (user 4-5 draw rule: 6.5%)."
+  },
+  {
+   "name": "V15-A",
+   "style": "15of15-own-drops-price-led",
+   "picks": "H A A - A H H H H H A - A A H A H",
+   "played": false,
+   "reasons": {
+    "1": "optimiser",
+    "3": "optimiser"
+   },
+   "note": "Draft Wed 21 Oct: each slip drops its own 2 games (this one: [4, 12]); drops and picks searched together to maximise P(any of the four 10+/15). Four slips: 9.6% (2M fresh simulations), v 9.0% with 7 and 16 dropped on every slip."
+  },
+  {
+   "name": "V15-B",
+   "style": "15of15-own-drops-price-led",
+   "picks": "A - H A H H H H - H A A H A A A H",
+   "played": false,
+   "reasons": {
+    "5": "optimiser",
+    "13": "optimiser",
+    "15": "optimiser"
+   },
+   "note": "Draft Wed 21 Oct: each slip drops its own 2 games (this one: [2, 9]); drops and picks searched together to maximise P(any of the four 10+/15). Four slips: 9.6% (2M fresh simulations), v 9.0% with 7 and 16 dropped on every slip."
+  },
+  {
+   "name": "V15-C",
+   "style": "15of15-own-drops-price-led",
+   "picks": "A A H A A A - H H H A A A A H - D",
+   "played": false,
+   "reasons": {
+    "6": "optimiser",
+    "17": "optimiser"
+   },
+   "note": "Draft Wed 21 Oct: each slip drops its own 2 games (this one: [7, 16]); drops and picks searched together to maximise P(any of the four 10+/15). Four slips: 9.6% (2M fresh simulations), v 9.0% with 7 and 16 dropped on every slip."
+  },
+  {
+   "name": "V15-D",
+   "style": "15of15-own-drops-price-led",
+   "picks": "A H H A A H - H H A A A A H H - H",
+   "played": false,
+   "reasons": {
+    "2": "optimiser",
+    "10": "optimiser",
+    "14": "optimiser"
+   },
+   "note": "Draft Wed 21 Oct: each slip drops its own 2 games (this one: [7, 16]); drops and picks searched together to maximise P(any of the four 10+/15). Four slips: 9.6% (2M fresh simulations), v 9.0% with 7 and 16 dropped on every slip."
   }
  ]
 }
