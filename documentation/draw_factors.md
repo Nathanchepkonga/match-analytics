@@ -48,3 +48,9 @@ The optimiser always settles on 2 per slip, because each extra draw costs more.
 **From our own ledger (4 jackpots, 60 games, 12 draws):**
 - Of our 142 draw picks, 27 were right (19%). The favourite on the same games was right 45 times (32%).
 - On the 28 games where we picked a draw, 8 ended drawn (29%, as priced). So we chose the right games, but those weeks were short of draws: 20% against 31% in SportPesa's 4-year archive.
+
+## Update (user, 21 Oct 2026): draws per slip by card size
+
+- **13-game slips carry 3-4 draws; 15-game slips (Mega 15/15) carry 4-5.** This narrows R24's 2-5 range.
+- Build the same way: `optimise(probs, n, target, min_draws=4, max_draws=5, vary=...)` with draws masked to the draw pool, then score on the true prices.
+- Card 205 (24-25 Oct), two slips: joint chance of 10+/15 is 4.05% with 4 draws each, against 5.72% for the free optimiser pair. Five draws each drops it to 3.2%, so the optimiser settles on 4.

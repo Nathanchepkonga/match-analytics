@@ -699,21 +699,28 @@
  "slips": [
   {
    "name": "ONE-15",
-   "style": "lean-15of15-favourites",
-   "picks": "A A H A A H - H H H A A A A H - H",
+   "style": "15of15-draw-rule-4",
+   "picks": "A D H A A H - H H H A D A D H - D",
    "played": false,
-   "note": "Draft Wed 21 Oct: 15/15 category (drop games 7 Celta-Betis and 16 AEL-Aris, the two closest), multi-book consensus odds (Odibets/Paripesa/Stake, no SportPesa) with sportpesa_tilt; optimiser with 1 slip returns the favourites slip. P(bonus 10+/15)=3.8%, P(15/15)=1.4e-6. Re-check odds and line-ups on match day before placing."
+   "note": "Draft Wed 21 Oct, user draw rule (15-game slips carry 4-5 draws). Draws only on the draw pool 17, 14, 12, 2, 11, 13 (cheapest draw prices after the SportPesa tilt; tie-breaks: P(under 2.5) 0.53-0.54 on 12/14/17, Leeds 4D in 7, Roma GA 3 in 7). Both slips optimised together on Odibets/Paripesa/Stake consensus. Joint P(10+/15) 4.05% v 5.72% for the free pair (draw-rule cost 1.7 pts). Supersedes the no-draw ONE-15 / COUNTER-15 drafts.",
+   "reasons": {
+    "2": "draw-rule",
+    "12": "draw-rule",
+    "14": "draw-rule",
+    "17": "draw-rule"
+   }
   },
   {
    "name": "COUNTER-15",
-   "style": "lean-15of15-counter",
-   "picks": "A H H A H H - H H H A A H A H - H",
+   "style": "15of15-draw-rule-4",
+   "picks": "A A H A A H - H H H D A D D H - D",
    "played": false,
-   "note": "Draft Wed 21 Oct: counter to ONE-15. Same 15 games; flips games 2, 5, 13 to the home side (the three closest favourites). Joint chance either slip gets 10+/15 = 5.7% (ONE-15 alone 3.8%); if ONE-15 lands on 8-9 (19% chance), this slip reaches 10+ about 7.9% of the time.",
+   "note": "Counter to ONE-15; if ONE-15 lands on 8-9 (15% chance) this slip reaches 10+ about 7.8% of the time. Draft Wed 21 Oct, user draw rule (15-game slips carry 4-5 draws). Draws only on the draw pool 17, 14, 12, 2, 11, 13 (cheapest draw prices after the SportPesa tilt; tie-breaks: P(under 2.5) 0.53-0.54 on 12/14/17, Leeds 4D in 7, Roma GA 3 in 7). Both slips optimised together on Odibets/Paripesa/Stake consensus. Joint P(10+/15) 4.05% v 5.72% for the free pair (draw-rule cost 1.7 pts). Supersedes the no-draw ONE-15 / COUNTER-15 drafts.",
    "reasons": {
-    "2": "optimiser",
-    "5": "optimiser",
-    "13": "optimiser"
+    "11": "draw-rule",
+    "13": "draw-rule",
+    "14": "draw-rule",
+    "17": "draw-rule"
    }
   }
  ]
