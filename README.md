@@ -158,7 +158,7 @@ Here's what's where:
 
 **`Home.py`** - The landing page, sets up styling and navigation
 
-**`pages/`** - The six analysis pages (Match Overview, Player Analysis, etc.)
+**`pages/`** - The analysis pages, including Prediction Lab and data-quality diagnostics
 
 **`src/data_loader.py`** - Grabs data from GitHub or your local drive
 
@@ -173,6 +173,34 @@ Here's what's where:
 **`src/styling.py`** - The CSS that makes it look nice
 
 **`tests/`** - Tests to make sure things work
+
+### Prediction Lab
+
+The **Prediction Lab** page provides a transparent baseline for local football-data archives:
+
+- Home/draw/away probabilities from a Poisson score model
+- Most likely scoreline
+- Over/under 2.5 and both-teams-to-score probabilities
+- Chronological backtesting with accuracy, log loss, and Brier score
+- Optional SkillCorner tracking, events, and phase data-quality diagnostics
+
+The baseline uses only matches before each backtest prediction. It is intended for research and
+comparison, not as a guarantee of future results.
+
+### Live daily feeds
+
+The **Fixture Intelligence** page is now centered on live daily data:
+
+- Betika football fixtures for the current day in East Africa Time
+- Home/draw/away odds from Betika
+- The active SportPesa Mega Jackpot Pro card
+- Jackpot event numbers, kickoff times, competitions, and odds
+- A manual refresh button and five-minute cache
+
+Open the **Fixture Intelligence** page in the Streamlit sidebar. The page reports source errors
+explicitly and keeps the historical fixture archive below the live feed as a fallback/reference.
+The source sites can change or apply anti-bot protection, so the app does not silently present
+stale live data as current.
 
 ---
 

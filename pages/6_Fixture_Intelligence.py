@@ -10,15 +10,19 @@ that does not exist publicly for these matches.
 
 import sys
 from pathlib import Path
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+from streamlit_autorefresh import st_autorefresh
 
 sys.path.append(str(Path(__file__).parent.parent))
 
 from src import styling
 from src.fixture_intel import load_fixtures, load_all_fixtures, score_predictions, match_results_table
+from src.live_feeds import FeedError, fetch_betika_daily_matches, fetch_sportpesa_jackpot
 from src.schema import FixtureIntel
 
 HOME_COLOR = "#32FF69"
@@ -148,6 +152,85 @@ def render_fixture_card(fixture: FixtureIntel):
         st.caption("Sources: " + ", ".join(fixture.sources))
 
 
+@st.cache_data(ttl=300, show_spinner=False)
+def load_live_matches():
+    return fetch_betika_daily_matches()
+
+
+@st.cache_data(ttl=300, show_spinner=False)
+def load_live_jackpot():
+    return fetch_sportpesa_jackpot()
+
+
+def _format_odds(row) -> str:
+    values = [row.get("home_odds"), row.get("draw_odds"), row.get("away_odds")]
+    return " / ".join("-" if pd.isna(value) else f"{value:.2f}" for value in values)
+
+
+def render_live_feed():
+    st_autorefresh(interval=5 * 60 * 1000, key="live_feed_autorefresh")
+    st.subheader("Live daily feed")
+    st.caption(
+        "Betika football fixtures for today in East Africa Time and the active SportPesa Mega Jackpot Pro card. "
+        f"Feeds refresh every 5 minutes. Last page refresh: "
+        f"{datetime.now(ZoneInfo('Africa/Nairobi')).strftime('%Y-%m-%d %H:%M EAT')}."
+    )
+    if st.button("Refresh live feeds", key="refresh_live_feeds"):
+        load_live_matches.clear()
+        load_live_jackpot.clear()
+        st.rerun()
+
+    left, right = st.columns(2)
+    with left:
+        st.markdown("#### Betika — today")
+        try:
+            matches = load_live_matches()
+            if matches.empty:
+                st.info("Betika returned no football fixtures for today.")
+            else:
+                table = matches.copy()
+                table["Kickoff (EAT)"] = table["kickoff"].dt.strftime("%H:%M")
+                table["Match"] = table["home_team"] + " vs " + table["away_team"]
+                table["Odds H/D/A"] = table.apply(_format_odds, axis=1)
+                st.dataframe(
+                    table[["Kickoff (EAT)", "competition", "Match", "Odds H/D/A"]]
+                    .rename(columns={"competition": "Competition"}),
+                    use_container_width=True,
+                    hide_index=True,
+                )
+                st.caption(f"{len(matches)} fixtures received from Betika.")
+        except FeedError as error:
+            st.error(f"Betika feed unavailable: {error}")
+
+    with right:
+        st.markdown("#### SportPesa — Mega Jackpot Pro")
+        try:
+            jackpot = load_live_jackpot()
+            events = pd.DataFrame(jackpot["events"])
+            st.metric("Jackpot events", len(events))
+            st.caption(
+                f"Jackpot ID: {jackpot.get('human_id') or jackpot.get('jackpot_id') or 'unknown'} · "
+                f"Status: {jackpot.get('betting_status') or 'unknown'}"
+            )
+            if not events.empty:
+                events["Kickoff (EAT)"] = events["kickoff"].dt.strftime("%d %b %H:%M")
+                events["Match"] = events["home_team"] + " vs " + events["away_team"]
+                events["Odds H/D/A"] = events.apply(_format_odds, axis=1)
+                st.dataframe(
+                    events[["number", "Kickoff (EAT)", "Match", "Odds H/D/A"]]
+                    .rename(columns={"number": "#"}),
+                    use_container_width=True,
+                    hide_index=True,
+                )
+            else:
+                st.warning("SportPesa returned an active jackpot with no events.")
+        except FeedError as error:
+            st.error(
+                f"SportPesa jackpot feed unavailable: {error}. "
+                "The source may be applying anti-bot protection; archived data remains below."
+            )
+
+
 def main():
     styling.load_css()
 
@@ -159,6 +242,9 @@ def main():
         "</div></div>",
         unsafe_allow_html=True,
     )
+
+    render_live_feed()
+    st.markdown("---")
 
     with st.expander("Methodology — how the tactical read is built"):
         st.markdown(

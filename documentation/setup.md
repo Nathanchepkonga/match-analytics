@@ -69,5 +69,5 @@ run_app.bat
 
 ### Option 2: Manual Start
 ```bash
-streamlit run app.py
+streamlit run Home.py
 ```
